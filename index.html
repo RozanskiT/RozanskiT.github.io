@@ -4,19 +4,50 @@
 
   <head>
     <meta charset="UTF-8">
-    <meta name="Description" content=" [wstaw tu opis strony] " />
-    <meta name="Keywords" content=" [wstaw tu slowa kluczowe] " />
-    <meta name="Author" content=" [dane autora] " />
-    <meta name="Generator" content=" [użyty edytor html] " />
+    <meta name="Description" content="Personal webpage of Tomasz Różański with some science projects, case studies and exercises" />
+    <meta name="Keywords" content="astronomy, physics, IT, projects, hobby, robotics, Python, C/C++" />
+    <meta name="Author" content="Tomasz Różański" />
+    <meta name="Generator" content="atom" />
 
-    <title> Tomasz Różański </title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title> RozanskiT </title>
   </head>
 
   <body >
+
+    <div class="header">
+      <div class="empty" > </div>
+    </div>
+
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
     <h1>
-      Tomasz Różański
+      Tomasz M. Różański
     </h1>
     <p>
       TODO: Run it
     </p>
+
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
  </body >
