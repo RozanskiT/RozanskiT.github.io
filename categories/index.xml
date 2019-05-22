@@ -23,19 +23,19 @@
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="about/">About</a>
+        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/about/">About</a>
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="post/">Posts</a>
+        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/post/">Posts</a>
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="tags/">Tags</a>
+        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/tags/">Tags</a>
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="categories/">Categories</a>
+        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/categories/">Categories</a>
       </li>
       
     </ul>
