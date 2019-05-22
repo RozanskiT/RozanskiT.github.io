@@ -11,7 +11,7 @@
       <html lang="en-us">
         <head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>Tags RSS | Różański T.</title>
+          <title>Posts RSS | Różański T.</title>
           <link rel="stylesheet" href="http://www.rozanskit.com/css/base.min.ae8b7cd9153826058c6adea17d3177ea53478e24f926a98ec677e8497192da59.css" integrity="sha256-rot82RU4JgWMat6hfTF36lNHjiT5JqmOxnfoSXGS2lk=" />
         </head>
         <body>
@@ -46,7 +46,7 @@
               <div class="u-padding">
                 <h2 class="Heading-title">
                   
-                  <a class="Heading-link u-clickable" href="http://www.rozanskit.com/tags/index.xml" rel="bookmark">Tags RSS</a>
+                  <a class="Heading-link u-clickable" href="http://www.rozanskit.com/post/index.xml" rel="bookmark">Posts RSS</a>
                   
                 </h2>
                 
@@ -100,12 +100,20 @@
     </xsl:template>
   </xsl:stylesheet>
   <channel>
-    <title>Tags on Różański T.</title>
-    <link>http://www.rozanskit.com/tags/</link>
-    <description>Recent content in Tags on Różański T.</description>
+    <title>Posts on Różański T.</title>
+    <link>http://www.rozanskit.com/post/</link>
+    <description>Recent content in Posts on Różański T.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 May 2019 01:45:10 +0200</lastBuildDate>
-    <atom:link href="http://www.rozanskit.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.rozanskit.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Equation of radiative transfer</title>
+      <link>http://www.rozanskit.com/post/initial_post/</link>
+      <pubDate>Wed, 22 May 2019 01:45:10 +0200</pubDate>
+      <guid>http://www.rozanskit.com/post/initial_post/</guid>
+      <description>&lt;p&gt;$$ \frac{dI_\nu}{dz} = -\kappa_\nu I_\nu + S_\nu$$&lt;/p&gt;
+</description>
+    </item>
   </channel>
 </rss>

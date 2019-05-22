@@ -3,22 +3,54 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.rozanskit.com/about/</loc>
+    <loc>http://www.rozanskit.com/categories/astronomy/</loc>
+    <lastmod>2019-05-22T01:45:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.rozanskit.com/tags/astronomy/</loc>
+    <lastmod>2019-05-22T01:45:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.rozanskit.com/categories/</loc>
+    <lastmod>2019-05-22T01:45:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.rozanskit.com/post/initial_post/</loc>
+    <lastmod>2019-05-22T01:45:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.rozanskit.com/post/</loc>
+    <lastmod>2019-05-22T01:45:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.rozanskit.com/</loc>
+    <lastmod>2019-05-22T01:45:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.rozanskit.com/tags/stellar-atmospheres/</loc>
+    <lastmod>2019-05-22T01:45:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.rozanskit.com/tags/</loc>
+    <lastmod>2019-05-22T01:45:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.rozanskit.com/about/</loc>
     <priority>0</priority>
   </url>
   
