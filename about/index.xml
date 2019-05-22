@@ -12,14 +12,14 @@
         <head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title> RSS | Różański T.</title>
-          <link rel="stylesheet" href="/css/base.min.ae8b7cd9153826058c6adea17d3177ea53478e24f926a98ec677e8497192da59.css" integrity="sha256-rot82RU4JgWMat6hfTF36lNHjiT5JqmOxnfoSXGS2lk=" />
+          <link rel="stylesheet" href="http://www.rozanskit.com/css/base.min.ae8b7cd9153826058c6adea17d3177ea53478e24f926a98ec677e8497192da59.css" integrity="sha256-rot82RU4JgWMat6hfTF36lNHjiT5JqmOxnfoSXGS2lk=" />
         </head>
         <body>
           <nav class="u-background">
   <div class="u-wrapper">
     <ul class="Banner">
       <li class="Banner-item Banner-item--title">
-        <a class="Banner-link u-clickable" href="">Różański T.</a>
+        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/">Różański T.</a>
       </li>
       
       <li class="Banner-item">
@@ -46,7 +46,7 @@
               <div class="u-padding">
                 <h2 class="Heading-title">
                   
-                  <a class="Heading-link u-clickable" href="/about/index.xml" rel="bookmark"> RSS</a>
+                  <a class="Heading-link u-clickable" href="http://www.rozanskit.com/about/index.xml" rel="bookmark"> RSS</a>
                   
                 </h2>
                 
@@ -72,10 +72,10 @@
   </xsl:stylesheet>
   <channel>
     <title>Różański T.</title>
-    <link>/about/</link>
+    <link>http://www.rozanskit.com/about/</link>
     <description>Recent content on Różański T.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.rozanskit.com/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
