@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.rozanskit.com/</loc>
+    <lastmod>2019-05-22T01:45:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.rozanskit.com/categories/astronomy/</loc>
     <lastmod>2019-05-22T01:45:10+02:00</lastmod>
   </url>
@@ -28,11 +34,6 @@
   </url>
   
   <url>
-    <loc>http://www.rozanskit.com/</loc>
-    <lastmod>2019-05-22T01:45:10+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.rozanskit.com/tags/stellar-atmospheres/</loc>
     <lastmod>2019-05-22T01:45:10+02:00</lastmod>
   </url>
@@ -45,6 +46,18 @@
   <url>
     <loc>http://www.rozanskit.com/about/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.rozanskit.com/teaching/jsp1920/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.rozanskit.com/teaching/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.rozanskit.com/teaching/jsp1920/introduction/</loc>
   </url>
   
 </urlset>

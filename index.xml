@@ -11,7 +11,7 @@
       <html lang="en-us">
         <head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>RSS | Różański T.</title>
+          <title> RSS | Różański T.</title>
           <link rel="stylesheet" href="http://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=" />
         </head>
         <body>
@@ -23,7 +23,7 @@
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/about/">About</a>
+        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/teaching/">Teaching</a>
       </li>
       
       <li class="Banner-item">
@@ -50,13 +50,9 @@
               <div class="u-padding">
                 <h2 class="Heading-title">
                   
-                  <a class="Heading-link u-clickable" href="http://www.rozanskit.com/index.xml" rel="bookmark">RSS</a>
+                  <a class="Heading-link u-clickable" href="http://www.rozanskit.com/index.xml" rel="bookmark"> RSS</a>
                   
                 </h2>
-                
-                <p>
-                  To subscribe to this RSS feed, copy its address and paste it into your favorite feed reader.
-                </p>
                 
               </div>
             </div>
@@ -112,11 +108,22 @@
     <lastBuildDate>Wed, 22 May 2019 01:45:10 +0200</lastBuildDate>
     <atom:link href="http://www.rozanskit.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Posts</title>
-      <link>http://www.rozanskit.com/post/</link>
+      <title>Nauczanie</title>
+      <link>http://www.rozanskit.com/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.rozanskit.com/post/</guid>
-      <description></description>
+      <guid>http://www.rozanskit.com/teaching/</guid>
+      <description>
+
+&lt;h3 id=&#34;konsultacje&#34;&gt;Konsultacje&lt;/h3&gt;
+
+&lt;p&gt;Termin zostanie ustalony w najbliższym czasie.&lt;/p&gt;
+
+&lt;h3 id=&#34;2019-2020-semestr-zimowy&#34;&gt;2019-2020 semestr zimowy&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.rozanskit.com/teaching/jsp1920/&#34;&gt;Języki skryptowe - Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
     </item>
   </channel>
 </rss>

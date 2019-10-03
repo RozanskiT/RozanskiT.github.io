@@ -23,7 +23,7 @@
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/about/">About</a>
+        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/teaching/">Teaching</a>
       </li>
       
       <li class="Banner-item">
@@ -53,10 +53,6 @@
                   <a class="Heading-link u-clickable" href="http://www.rozanskit.com/categories/index.xml" rel="bookmark">Categories RSS</a>
                   
                 </h2>
-                
-                <p>
-                  To subscribe to this RSS feed, copy its address and paste it into your favorite feed reader.
-                </p>
                 
               </div>
             </div>
