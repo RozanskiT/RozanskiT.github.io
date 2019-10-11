@@ -107,7 +107,7 @@
     <language>en-us</language>
     <atom:link href="http://www.rozanskit.com/teaching/jsp1920/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Podstawowe informacje o Pythonie</title>
+      <title>Podstawowe informacje i instalacja Pythona</title>
       <link>http://www.rozanskit.com/teaching/jsp1920/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://www.rozanskit.com/teaching/jsp1920/introduction/</guid>
@@ -142,6 +142,37 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.conda.io/en/latest/&#34;&gt;https://docs.conda.io/en/latest/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Wprowadzenie do systemu kontroli wersji - Git</title>
+      <link>http://www.rozanskit.com/teaching/jsp1920/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://www.rozanskit.com/teaching/jsp1920/git/</guid>
+      <description>
+
+&lt;h3 id=&#34;literatura&#34;&gt;Literatura&lt;/h3&gt;
+
+&lt;p&gt;Wszystkie informacje zamieszczone poniżej, pochodzą z doskonałego wprowadzenia do systemu kontroli wersji Git, które można znaleźć w książce: &lt;a href=&#34;https://git-scm.com/book/pl/v2&#34;&gt;Pro Git (S. Chacon, B. Straub)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;co-to-jest-system-kontroli-wersji-i-dlaczego-go-potrzebujemy&#34;&gt;Co to jest system kontroli wersji i dlaczego go potrzebujemy?&lt;/h3&gt;
+
+&lt;p&gt;Systemy kontroli wersji służą śledzeniu i zapamiętywaniu wszystkich zmian wprowadzanych w projekcie nad, którym pracujemy. Zmiany mogą dotyczyć zmian w kodzie źródłowym programu, ale nie tylko - mogą to być zmiany dowolnych plików (lub w plikach). Dzięki historii zmian możemy w dowolnym momencie przywrócić wcześniejszy stan projektu, czy sprawdzić kto jest autorem danego fragmentu kodu.&lt;/p&gt;
+
+&lt;p&gt;Prawdziwa wartość systemów kontroli wersji jest widoczna w pracy grupowej, kiedy wielu programistów jednocześnie pracuje nad przydzielonymi im funkcjonalnościami oprogramowania. Wtedy uporządkowana praca pozwala na łatwe rozszerzanie możliwości programu i rozwiązywanie konfliktów, czyli problemów które mogą wystąpić podczas scalania zmian wykonanych przez dwóch programistów w tym samym pliku.&lt;/p&gt;
+
+&lt;h3 id=&#34;quick-start&#34;&gt;Quick start&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Utwórz katalog, który będzie twoim katalogiem projektu.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Wejdź do nowo utworzonego katalogu i zainicjalizuj w nim&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git init
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
   </channel>

@@ -9,12 +9,12 @@
   </url>
   
   <url>
-    <loc>http://www.rozanskit.com/categories/astronomy/</loc>
+    <loc>http://www.rozanskit.com/tags/astronomy/</loc>
     <lastmod>2019-05-22T01:45:10+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.rozanskit.com/tags/astronomy/</loc>
+    <loc>http://www.rozanskit.com/categories/astronomy/</loc>
     <lastmod>2019-05-22T01:45:10+02:00</lastmod>
   </url>
   
@@ -58,6 +58,10 @@
   
   <url>
     <loc>http://www.rozanskit.com/teaching/jsp1920/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.rozanskit.com/teaching/jsp1920/git/</loc>
   </url>
   
 </urlset>
