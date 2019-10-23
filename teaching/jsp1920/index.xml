@@ -12,34 +12,34 @@
         <head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>Języki skryptowe - Python RSS | Różański T.</title>
-          <link rel="stylesheet" href="http://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=" />
+          <link rel="stylesheet" href="https://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=" />
         </head>
         <body>
           <nav class="u-background">
   <div class="u-wrapper">
     <ul class="Banner">
       <li class="Banner-item Banner-item--title">
-        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/">Różański T.</a>
+        <a class="Banner-link u-clickable" href="https://www.rozanskit.com/">Różański T.</a>
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/teaching/">Teaching</a>
+        <a class="Banner-link u-clickable" href="https://www.rozanskit.com/teaching/">Teaching</a>
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/post/">Posts</a>
+        <a class="Banner-link u-clickable" href="https://www.rozanskit.com/post/">Posts</a>
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/HANDY/">HANDY</a>
+        <a class="Banner-link u-clickable" href="https://www.rozanskit.com/HANDY/">HANDY</a>
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/tags/">Tags</a>
+        <a class="Banner-link u-clickable" href="https://www.rozanskit.com/tags/">Tags</a>
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/categories/">Categories</a>
+        <a class="Banner-link u-clickable" href="https://www.rozanskit.com/categories/">Categories</a>
       </li>
       
     </ul>
@@ -50,7 +50,7 @@
               <div class="u-padding">
                 <h2 class="Heading-title">
                   
-                  <a class="Heading-link u-clickable" href="http://www.rozanskit.com/teaching/jsp1920/index.xml" rel="bookmark">Języki skryptowe - Python RSS</a>
+                  <a class="Heading-link u-clickable" href="https://www.rozanskit.com/teaching/jsp1920/index.xml" rel="bookmark">Języki skryptowe - Python RSS</a>
                   
                 </h2>
                 
@@ -101,16 +101,16 @@
   </xsl:stylesheet>
   <channel>
     <title>Języki skryptowe - Python on Różański T.</title>
-    <link>http://www.rozanskit.com/teaching/jsp1920/</link>
+    <link>https://www.rozanskit.com/teaching/jsp1920/</link>
     <description>Recent content in Języki skryptowe - Python on Różański T.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://www.rozanskit.com/teaching/jsp1920/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.rozanskit.com/teaching/jsp1920/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Podstawowe informacje i instalacja Pythona</title>
-      <link>http://www.rozanskit.com/teaching/jsp1920/introduction/</link>
+      <link>https://www.rozanskit.com/teaching/jsp1920/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.rozanskit.com/teaching/jsp1920/introduction/</guid>
+      <guid>https://www.rozanskit.com/teaching/jsp1920/introduction/</guid>
       <description>
 
 &lt;h3 id=&#34;gdzie-poczytać-o-pythonie&#34;&gt;Gdzie poczytać o Pythonie?&lt;/h3&gt;
@@ -146,9 +146,9 @@
     </item>
     <item>
       <title>Sortowanie bąbelkowe</title>
-      <link>http://www.rozanskit.com/teaching/jsp1920/bubble_sort/</link>
+      <link>https://www.rozanskit.com/teaching/jsp1920/bubble_sort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.rozanskit.com/teaching/jsp1920/bubble_sort/</guid>
+      <guid>https://www.rozanskit.com/teaching/jsp1920/bubble_sort/</guid>
       <description>
 
 &lt;h3 id=&#34;na-czym-polega-sortowanie-bąbelkowe&#34;&gt;Na czym polega sortowanie bąbelkowe?&lt;/h3&gt;
@@ -199,9 +199,9 @@ end procedure
     </item>
     <item>
       <title>Wprowadzenie do systemu kontroli wersji - Git</title>
-      <link>http://www.rozanskit.com/teaching/jsp1920/git/</link>
+      <link>https://www.rozanskit.com/teaching/jsp1920/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.rozanskit.com/teaching/jsp1920/git/</guid>
+      <guid>https://www.rozanskit.com/teaching/jsp1920/git/</guid>
       <description>
 
 &lt;h3 id=&#34;literatura&#34;&gt;Literatura&lt;/h3&gt;

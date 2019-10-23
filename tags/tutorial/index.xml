@@ -12,34 +12,34 @@
         <head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>Tutorial RSS | Różański T.</title>
-          <link rel="stylesheet" href="http://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=" />
+          <link rel="stylesheet" href="https://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=" />
         </head>
         <body>
           <nav class="u-background">
   <div class="u-wrapper">
     <ul class="Banner">
       <li class="Banner-item Banner-item--title">
-        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/">Różański T.</a>
+        <a class="Banner-link u-clickable" href="https://www.rozanskit.com/">Różański T.</a>
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/teaching/">Teaching</a>
+        <a class="Banner-link u-clickable" href="https://www.rozanskit.com/teaching/">Teaching</a>
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/post/">Posts</a>
+        <a class="Banner-link u-clickable" href="https://www.rozanskit.com/post/">Posts</a>
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/HANDY/">HANDY</a>
+        <a class="Banner-link u-clickable" href="https://www.rozanskit.com/HANDY/">HANDY</a>
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/tags/">Tags</a>
+        <a class="Banner-link u-clickable" href="https://www.rozanskit.com/tags/">Tags</a>
       </li>
       
       <li class="Banner-item">
-        <a class="Banner-link u-clickable" href="http://www.rozanskit.com/categories/">Categories</a>
+        <a class="Banner-link u-clickable" href="https://www.rozanskit.com/categories/">Categories</a>
       </li>
       
     </ul>
@@ -50,7 +50,7 @@
               <div class="u-padding">
                 <h2 class="Heading-title">
                   
-                  <a class="Heading-link u-clickable" href="http://www.rozanskit.com/tags/tutorial/index.xml" rel="bookmark">Tutorial RSS</a>
+                  <a class="Heading-link u-clickable" href="https://www.rozanskit.com/tags/tutorial/index.xml" rel="bookmark">Tutorial RSS</a>
                   
                 </h2>
                 
@@ -101,11 +101,11 @@
   </xsl:stylesheet>
   <channel>
     <title>Tutorial on Różański T.</title>
-    <link>http://www.rozanskit.com/tags/tutorial/</link>
+    <link>https://www.rozanskit.com/tags/tutorial/</link>
     <description>Recent content in Tutorial on Różański T.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Oct 2019 21:30:10 +0200</lastBuildDate>
-    <atom:link href="http://www.rozanskit.com/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.rozanskit.com/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
