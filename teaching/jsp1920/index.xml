@@ -145,6 +145,78 @@
 </description>
     </item>
     <item>
+      <title>Rekurencja (rekursja)</title>
+      <link>https://www.rozanskit.com/teaching/jsp1920/rekursja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/teaching/jsp1920/rekursja/</guid>
+      <description>
+
+&lt;h3 id=&#34;co-to-jest-rekurencja&#34;&gt;Co to jest Rekurencja?&lt;/h3&gt;
+
+&lt;p&gt;Zacznijmy od &lt;a href=&#34;https://www.google.com/search?q=recursion&amp;amp;oq=recursion&amp;amp;aqs=chrome.0.69i59j0l2j69i60l3.1383j0j7&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&#34;&gt;żartu&lt;/a&gt;. Rekurencja (ang.&lt;em&gt;recursion&lt;/em&gt;) występuje, gdy definicja typu czy funkcji odwołuje się sama do siebie. Przykładem rekurencyjnej definicji funkcji może być definicja ciągu Fibonacciego:
+$$
+F_n =
+\begin{cases}
+1,&amp;amp; \text{if } x = 0\newline
+1,&amp;amp; \text{if } x = 1\newline
+F_{n-1} + F_{n-2},&amp;amp; \text{if } x \geq 2 \newline
+\end{cases}
+$$
+A przykładem rekurencyjnej definicji struktury danych (typu) może być definicja listy jednokierunkowej:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;struct node
+{
+  int data;           // some integer data
+  struct node *next;  // pointer to another struct node
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Dzięki rekurencji łatwo można w prosty sposób zdefiniować niektóre zbiory fraktalne, np. trójkąt Sierpińskiego:
+&lt;img src=&#34;https://www.rozanskit.com/images/Sierpinski_triangle_evolution.png&#34; alt=&#34;Trójkąt Sierpińskiego&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;wieże-hanoi&#34;&gt;Wieże Hanoi&lt;/h3&gt;
+
+&lt;p&gt;Mamy trzy stosy. Na jednym w nich od najmniejszego na największego (patrząc z góry) ułożone jest $N$ krążków. Pozostałe 2 słupki są puste. Zadanie polega na przeniesieniu krążków na wybrany z dwóch pozostałych słupków tak żeby zachować kolejność. Zasady:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;jednocześnie przenosić można tylko jeden krążek,&lt;/li&gt;
+&lt;li&gt;większy krążek nigdy nie może leżeć na mniejszym.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Można zajrzeć &lt;a href=&#34;http://www.javawithus.com/programs/towers-of-hanoi&#34;&gt;tutaj&lt;/a&gt; po dokładniejszy opis.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.rozanskit.com/gifs/NwAPw.gif&#34; alt=&#34;Wieże Hanoi&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;wyzwanie-1&#34;&gt;Wyzwanie 1.&lt;/h3&gt;
+
+&lt;p&gt;Spróbuj na kartce papieru rozwiązać zagadkę dla 3 krążków.&lt;/p&gt;
+
+&lt;h3 id=&#34;pseudokod-rozwiązania-rekurencyjnego&#34;&gt;Pseudokod rozwiązania rekurencyjnego&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;function move(n, source, target, buffer):
+    if n == 0:
+       return
+
+    # move n - 1 disks from source to helping tower, so they are out of the way
+    move(n - 1, source, buffer, target)
+
+    # move the nth disk from source to target
+    target.append(source.pop())
+
+    # move the n - 1 disks that we left on helping onto target
+    move(n - 1, buffer, target, source)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;co-należy-zrobić&#34;&gt;Co należy zrobić?&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Zaimplementuj rekurencyjną funkcję wiezeHanoi(N:int), która rozwiąże problem i jednocześnie na konsoli wyświetli jakąś wizualizację wykonanych ruchów. (Podpowiedź: Krążki reprezentuj przez liczby naturalne a stosy przez listy.)&lt;/li&gt;
+&lt;li&gt;Czy potrafisz wyjaśnić dlaczego zaprezentowany algortym działa?&lt;/li&gt;
+&lt;li&gt;Jak zależy ilość przestawień od liczby krążków?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    <item>
       <title>Sortowanie bąbelkowe</title>
       <link>https://www.rozanskit.com/teaching/jsp1920/bubble_sort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

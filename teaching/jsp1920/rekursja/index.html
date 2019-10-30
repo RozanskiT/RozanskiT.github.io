@@ -12,11 +12,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
     
-    Języki skryptowe - Python | Różański T.
+    Rekurencja (rekursja) | Różański T.
     
   </title>
-  
-  <link rel="alternate" type="application/rss+xml" href="https://www.rozanskit.com/teaching/jsp1920/index.xml" title="Różański T.">
   
   
   <link rel="stylesheet" href="https://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=">
@@ -63,88 +61,74 @@
 <article>
   <header class="Heading">
   <h2 class="Heading-title">
-    <a class="Heading-link u-clickable" href="https://www.rozanskit.com/teaching/jsp1920/" rel="bookmark">Języki skryptowe - Python</a>
+    <a class="Heading-link u-clickable" href="https://www.rozanskit.com/teaching/jsp1920/rekursja/" rel="bookmark">Rekurencja (rekursja)</a>
   </h2>
   
 </header>
   
 
-<h3 id="zasady-zaliczenia">Zasady zaliczenia</h3>
+<h3 id="co-to-jest-rekurencja">Co to jest Rekurencja?</h3>
 
-<table>
-<thead>
-<tr>
-<th>Wynik [%]</th>
-<th>Ocena</th>
-</tr>
-</thead>
+<p>Zacznijmy od <a href="https://www.google.com/search?q=recursion&amp;oq=recursion&amp;aqs=chrome.0.69i59j0l2j69i60l3.1383j0j7&amp;sourceid=chrome&amp;ie=UTF-8">żartu</a>. Rekurencja (ang.<em>recursion</em>) występuje, gdy definicja typu czy funkcji odwołuje się sama do siebie. Przykładem rekurencyjnej definicji funkcji może być definicja ciągu Fibonacciego:
+$$
+F_n =
+\begin{cases}
+1,&amp; \text{if } x = 0\newline
+1,&amp; \text{if } x = 1\newline
+F_{n-1} + F_{n-2},&amp; \text{if } x \geq 2 \newline
+\end{cases}
+$$
+A przykładem rekurencyjnej definicji struktury danych (typu) może być definicja listy jednokierunkowej:</p>
 
-<tbody>
-<tr>
-<td>(80, 100]</td>
-<td>5</td>
-</tr>
+<pre><code>struct node
+{
+  int data;           // some integer data
+  struct node *next;  // pointer to another struct node
+};
+</code></pre>
 
-<tr>
-<td>(70, 80]</td>
-<td>4.5</td>
-</tr>
+<p>Dzięki rekurencji łatwo można w prosty sposób zdefiniować niektóre zbiory fraktalne, np. trójkąt Sierpińskiego:
+<img src="/images/Sierpinski_triangle_evolution.png" alt="Trójkąt Sierpińskiego" /></p>
 
-<tr>
-<td>(60, 70]</td>
-<td>4.0</td>
-</tr>
+<h3 id="wieże-hanoi">Wieże Hanoi</h3>
 
-<tr>
-<td>(50, 60]</td>
-<td>3.5</td>
-</tr>
-
-<tr>
-<td>(40, 50]</td>
-<td>3.0</td>
-</tr>
-
-<tr>
-<td>[0, 40]</td>
-<td>2.0</td>
-</tr>
-</tbody>
-</table>
-
-<p>Wynik $W$ wyliczany jest za pomocą wzoru:
-$$ W = \frac{1}{4}x_1 + \frac{1}{4}x_2 + \frac{1}{2}x_3 $$</p>
+<p>Mamy trzy stosy. Na jednym w nich od najmniejszego na największego (patrząc z góry) ułożone jest $N$ krążków. Pozostałe 2 słupki są puste. Zadanie polega na przeniesieniu krążków na wybrany z dwóch pozostałych słupków tak żeby zachować kolejność. Zasady:</p>
 
 <ul>
-<li>$x_1 \in [0,1]$ - suma punktów zdobytych za wszystkie listy zadań podzielona przez maksymalną liczbę punktów do zdobycia za listy zadań (unormowana do jedności),</li>
-<li>$x_2 \in [0,1]$ - suma punktów do zdobycia za wszystkie wejściówki unormowana do jedności,</li>
-<li>$x_3\in [0,1]$ - średnia z ocen za 1. i 2. kolokwium unormowanych do jedności.</li>
+<li>jednocześnie przenosić można tylko jeden krążek,</li>
+<li>większy krążek nigdy nie może leżeć na mniejszym.</li>
 </ul>
 
-<h3 id="listy-zadań">Listy zadań</h3>
+<p>Można zajrzeć <a href="http://www.javawithus.com/programs/towers-of-hanoi">tutaj</a> po dokładniejszy opis.</p>
 
-<ul>
-<li><a href="https://www.rozanskit.com/linelists/Lista1.pdf">Lista 1 (do 17.10.2019, 06:00)</a></li>
-<li><a href="https://www.rozanskit.com/linelists/Lista2.pdf">Lista 2 (do 24.10.2019, 06:00)</a></li>
-<li><a href="https://www.rozanskit.com/linelists/Lista3.pdf">Lista 3 (do 31.10.2019, 06:00)</a></li>
-<li><a href="https://www.rozanskit.com/linelists/Lista4.pdf">Lista 4 (do 07.11.2019, 06:00)</a></li>
-<li>&hellip;</li>
-</ul>
+<p><img src="/gifs/NwAPw.gif" alt="Wieże Hanoi" /></p>
 
-<h3 id="materiały">Materiały</h3>
+<h3 id="wyzwanie-1">Wyzwanie 1.</h3>
+
+<p>Spróbuj na kartce papieru rozwiązać zagadkę dla 3 krążków.</p>
+
+<h3 id="pseudokod-rozwiązania-rekurencyjnego">Pseudokod rozwiązania rekurencyjnego</h3>
+
+<pre><code>function move(n, source, target, buffer):
+    if n == 0:
+       return
+
+    # move n - 1 disks from source to helping tower, so they are out of the way
+    move(n - 1, source, buffer, target)
+
+    # move the nth disk from source to target
+    target.append(source.pop())
+
+    # move the n - 1 disks that we left on helping onto target
+    move(n - 1, buffer, target, source)
+</code></pre>
+
+<h3 id="co-należy-zrobić">Co należy zrobić?</h3>
 
 <ol>
-<li><a href="https://www.rozanskit.com/teaching/jsp1920/introduction/">Podstawowe informacje i instalacja Pythona</a></li>
-<li><a href="https://www.rozanskit.com/teaching/jsp1920/git/">Wprowadzenie do systemu kontroli wersji - Git</a></li>
-<li><a href="https://www.rozanskit.com/post/python_introduction/">Podstawy języka Python w jednym notebooku (po angielsku)</a></li>
-</ol>
-
-<h3 id="wyzwania-dla-bardziej-zaawansowanych-i-zainteresowanych">Wyzwania dla bardziej zaawansowanych i zainteresowanych</h3>
-
-<ol>
-<li><a href="https://www.rozanskit.com/teaching/jsp1920/bubble_sort/">Sortowanie bąbelkowe</a></li>
-<li><a href="https://www.rozanskit.com/teaching/jsp1920/insertion_sort/">Sortowanie przez wstawianie</a></li>
-<li><a href="https://www.rozanskit.com/teaching/jsp1920/rekursja/">Rekurencja (rekursja)</a></li>
+<li>Zaimplementuj rekurencyjną funkcję wiezeHanoi(N:int), która rozwiąże problem i jednocześnie na konsoli wyświetli jakąś wizualizację wykonanych ruchów. (Podpowiedź: Krążki reprezentuj przez liczby naturalne a stosy przez listy.)</li>
+<li>Czy potrafisz wyjaśnić dlaczego zaprezentowany algortym działa?</li>
+<li>Jak zależy ilość przestawień od liczby krążków?</li>
 </ol>
 
   
