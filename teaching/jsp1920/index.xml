@@ -176,7 +176,7 @@ A przykładem rekurencyjnej definicji struktury danych (typu) może być definic
 
 &lt;h3 id=&#34;wieże-hanoi&#34;&gt;Wieże Hanoi&lt;/h3&gt;
 
-&lt;p&gt;Mamy trzy stosy. Na jednym w nich od najmniejszego na największego (patrząc z góry) ułożone jest $N$ krążków. Pozostałe 2 słupki są puste. Zadanie polega na przeniesieniu krążków na wybrany z dwóch pozostałych słupków tak żeby zachować kolejność. Zasady:&lt;/p&gt;
+&lt;p&gt;Mamy trzy stosy. Na jednym w nich od najmniejszego do największego (patrząc z góry) ułożone jest $N$ krążków. Pozostałe 2 stosy są puste. Zadanie polega na przeniesieniu krążków na wybrany z dwóch pozostałych stosów tak żeby zachować kolejność. Zasady:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;jednocześnie przenosić można tylko jeden krążek,&lt;/li&gt;
@@ -266,6 +266,91 @@ end procedure
 &lt;li&gt;Jak rośnie czas wykonania algorymtu wraz ze wzrostem długości danych N (liniowo, kwadratowo, logarytmicznie, &amp;hellip;)?&lt;/li&gt;
 &lt;li&gt;Ile maksymalnie porównań może wykonać zaimplementowane sortowanie (w funkcji N)?&lt;/li&gt;
 &lt;li&gt;Czy masz jakieś pomysły na usprawnienie sortowania bąbelkowego?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    <item>
+      <title>Sortowanie przez scalanie</title>
+      <link>https://www.rozanskit.com/teaching/jsp1920/merge_sort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/teaching/jsp1920/merge_sort/</guid>
+      <description>
+
+&lt;h3 id=&#34;na-czym-polega-sortowanie-przez-scalanie&#34;&gt;Na czym polega sortowanie przez scalanie?&lt;/h3&gt;
+
+&lt;p&gt;Algorytm sortowania przez scalanie (ang. &lt;em&gt;merge sort&lt;/em&gt;) wykorzystuje metodę ,,dziel i zwyciężaj&amp;rdquo; (ang. &lt;em&gt;divide-and-conquer&lt;/em&gt;). Algorytmy tego typu wywołują same siebie (jeden lub więcej razy), tzn. mają strukturę rekurencyjną. Metoda ,,dziel i zwyciężaj&amp;rdquo; polega na podzieleniu problemu na mniejsze podproblemy, rozwiązaniu ich a następnie połączeniu rozwiązań podproblemów w celu uzyskania rozwiązania początkowego, pełnego problemu.&lt;/p&gt;
+
+&lt;p&gt;Ogólny opis algorytmu sortowania przez scalanie jest następujący:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Podziel $n$-elementowy ciąg na dwa podciągi po $n/2$ elementów każdy.&lt;/li&gt;
+&lt;li&gt;Posortuj otrzymane podciągi, używając rekurencyjnie sortowania przez scalanie.&lt;/li&gt;
+&lt;li&gt;Połącz posortowanie podciągi w jeden posortowany ciąg.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Rekursja kończy się gdy ciąg do posortowania ma długość równą 1 - ciąg o długości 1 zawsze jest posortowany.&lt;/p&gt;
+
+&lt;p&gt;Kluczowym elementem algorytmu jest procedura $\text{MERGE}(A,p,q,r)$, gdzie $A$ to tablica, a $p,~q,~r$ są indeksami ($p\le q\le r$). Procedura zakłada, że podciągi $A[p..q]$ i $A[q..r]$ są posortowane. Po jej wywołaniu tablica $A[p..r]$ jest posortowana. (&lt;em&gt;Opracowano na podstawie książki T. H. Cormen i in. ,,Wprowadzenie do algorytmów&amp;rdquo;.&lt;/em&gt;)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.rozanskit.com/gifs/Merge-sort-example-300px.gif&#34; alt=&#34;Sortowanie przez scalanie&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Grafika pochodzi z &lt;a href=&#34;https://en.wikipedia.org/wiki/Merge_sort#/media/File:Merge-sort-example-300px.gif&#34;&gt;artykułu w angielskojęzycznej Wikipedii&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h3 id=&#34;wizualizacja&#34;&gt;Wizualizacja&lt;/h3&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/XaqR3G_NVoo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;pseudokod&#34;&gt;Pseudokod&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;procedure mergeSort( A, 0, len(A)-1)
+  if p &amp;lt; r
+    q = floor((p+r)/2)
+    mergeSort(A, p, q)
+    mergeSort(A, q+1, r)
+    merge(A, p, q, r)
+  endif
+
+procedure merge(A, p, q, r)
+  n1 = q - p + 1
+  n2 = r - q
+  L[0..n1] i R[0..n2] to puste tablice
+  for i = 0 to n1
+    L[i] = A[p+i]
+  for i = 0 to n2
+    R[j] = A[q+j+1]
+  L[n1] = infinity
+  L[n2] = infinity
+  i = 0
+  j = 0
+  for k = p to r
+    if L[i] &amp;lt;= R[j]
+      A[k] = L[i]
+      i++
+    else
+      A[k] = R[j]
+      j++
+    endif
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;co-należy-zaimplementować&#34;&gt;Co należy zaimplementować?&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Zaimplementuj funkcję merge_sort(), która jako argument przyjmuje listę a zwraca listę posortowaną.&lt;/li&gt;
+&lt;li&gt;Porównaj czas sortowania list o długości 5, 10, 50, 100, 1000 elementów przy pomocy algorytmów mergeSort() i insertionSort().&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&#34;pytania&#34;&gt;Pytania&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Jak rośnie czas wykonania algorymtu wraz ze wzrostem długości danych N (liniowo, kwadratowo, logarytmicznie, &amp;hellip;)?&lt;/li&gt;
+&lt;li&gt;Czy algorytm sortowania przez scalanie jest zawsze szybszy od algorytmu sortowania przez wstawianie?&lt;/li&gt;
+&lt;li&gt;Jak zbudować hybrydę algorytmów sortowania przez scalanie i sortowania przez wstawianie, która będzie szybsza od sortowania przez scalanie?&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
