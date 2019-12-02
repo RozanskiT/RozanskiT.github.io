@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="https://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=">
   <link rel="stylesheet" href="https://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=">
   
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.60.1" />
 </head>
 <body>
   <nav class="u-background">
@@ -65,10 +65,7 @@
   </h2>
   
 </header>
-  
-
-<h3 id="co-to-jest-rekurencja">Co to jest Rekurencja?</h3>
-
+  <h3 id="co-to-jest-rekurencja">Co to jest Rekurencja?</h3>
 <p>Zacznijmy od <a href="https://www.google.com/search?q=recursion&amp;oq=recursion&amp;aqs=chrome.0.69i59j0l2j69i60l3.1383j0j7&amp;sourceid=chrome&amp;ie=UTF-8">żartu</a>. Rekurencja (ang.<em>recursion</em>) występuje, gdy definicja typu czy funkcji odwołuje się sama do siebie. Przykładem rekurencyjnej definicji funkcji może być definicja ciągu Fibonacciego:
 $$
 F_n =
@@ -79,36 +76,24 @@ F_{n-1} + F_{n-2},&amp; \text{if } x \geq 2 \newline
 \end{cases}
 $$
 A przykładem rekurencyjnej definicji struktury danych (typu) może być definicja listy jednokierunkowej:</p>
-
 <pre><code>struct node
 {
   int data;           // some integer data
   struct node *next;  // pointer to another struct node
 };
-</code></pre>
-
-<p>Dzięki rekurencji łatwo można w prosty sposób zdefiniować niektóre zbiory fraktalne, np. trójkąt Sierpińskiego:
-<img src="https://www.rozanskit.com/images/Sierpinski_triangle_evolution.png" alt="Trójkąt Sierpińskiego" /></p>
-
-<h3 id="wieże-hanoi">Wieże Hanoi</h3>
-
+</code></pre><p>Dzięki rekurencji łatwo można w prosty sposób zdefiniować niektóre zbiory fraktalne, np. trójkąt Sierpińskiego:
+<img src="https://www.rozanskit.com/images/Sierpinski_triangle_evolution.png" alt="Trójkąt Sierpińskiego"></p>
+<h3 id="wiee-hanoi">Wieże Hanoi</h3>
 <p>Mamy trzy stosy. Na jednym w nich od najmniejszego do największego (patrząc z góry) ułożone jest $N$ krążków. Pozostałe 2 stosy są puste. Zadanie polega na przeniesieniu krążków na wybrany z dwóch pozostałych stosów tak żeby zachować kolejność. Zasady:</p>
-
 <ul>
 <li>jednocześnie przenosić można tylko jeden krążek,</li>
 <li>większy krążek nigdy nie może leżeć na mniejszym.</li>
 </ul>
-
 <p>Można zajrzeć <a href="http://www.javawithus.com/programs/towers-of-hanoi">tutaj</a> po dokładniejszy opis.</p>
-
-<p><img src="https://www.rozanskit.com/gifs/NwAPw.gif" alt="Wieże Hanoi" /></p>
-
+<p><img src="https://www.rozanskit.com/gifs/NwAPw.gif" alt="Wieże Hanoi"></p>
 <h3 id="wyzwanie-1">Wyzwanie 1.</h3>
-
 <p>Spróbuj na kartce papieru rozwiązać zagadkę dla 3 krążków.</p>
-
-<h3 id="pseudokod-rozwiązania-rekurencyjnego">Pseudokod rozwiązania rekurencyjnego</h3>
-
+<h3 id="pseudokod-rozwizania-rekurencyjnego">Pseudokod rozwiązania rekurencyjnego</h3>
 <pre><code>function move(n, source, target, buffer):
     if n == 0:
        return
@@ -121,10 +106,7 @@ A przykładem rekurencyjnej definicji struktury danych (typu) może być definic
 
     # move the n - 1 disks that we left on helping onto target
     move(n - 1, buffer, target, source)
-</code></pre>
-
-<h3 id="co-należy-zrobić">Co należy zrobić?</h3>
-
+</code></pre><h3 id="co-naley-zrobi">Co należy zrobić?</h3>
 <ol>
 <li>Zaimplementuj rekurencyjną funkcję wiezeHanoi(N:int), która rozwiąże problem i jednocześnie na konsoli wyświetli jakąś wizualizację wykonanych ruchów. (Podpowiedź: Krążki reprezentuj przez liczby naturalne a stosy przez listy.)</li>
 <li>Czy potrafisz wyjaśnić dlaczego zaprezentowany algortym działa?</li>

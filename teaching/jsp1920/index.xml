@@ -111,34 +111,24 @@
       <link>https://www.rozanskit.com/teaching/jsp1920/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.rozanskit.com/teaching/jsp1920/introduction/</guid>
-      <description>
-
-&lt;h3 id=&#34;gdzie-poczytać-o-pythonie&#34;&gt;Gdzie poczytać o Pythonie?&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;gdzie-poczytao-pythonie&#34;&gt;Gdzie poczytać o Pythonie?&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://wiki.python.org/moin/BeginnersGuide/NonProgrammers&#34;&gt;https://wiki.python.org/moin/BeginnersGuide/NonProgrammers&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://python.cs.southern.edu/pythonbook/pythonbook.pdf&#34;&gt;https://python.cs.southern.edu/pythonbook/pythonbook.pdf&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pl.wikibooks.org/wiki/Zanurkuj_w_Pythonie&#34;&gt;https://pl.wikibooks.org/wiki/Zanurkuj_w_Pythonie&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;A w praktyce najczęsciej będzie to: &lt;a href=&#34;https://stackoverflow.com/questions/tagged/python-3.x&#34;&gt;https://stackoverflow.com/questions/tagged/python-3.x&lt;/a&gt;&lt;/p&gt;
-
 &lt;h3 id=&#34;instalacja&#34;&gt;Instalacja&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.anaconda.com/anaconda/install/&#34;&gt;https://docs.anaconda.com/anaconda/install/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/&#34;&gt;https://www.anaconda.com/distribution/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h3 id=&#34;czym-jest-jupyter-notebook&#34;&gt;Czym jest Jupyter Notebook?&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://perseba.github.io/blog/jupyter-wprowadzenie.html&#34;&gt;http://perseba.github.io/blog/jupyter-wprowadzenie.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://jupyter.readthedocs.io/en/latest/install.html&#34;&gt;https://jupyter.readthedocs.io/en/latest/install.html&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h3 id=&#34;czym-jest-conda&#34;&gt;Czym jest Conda?&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.conda.io/en/latest/&#34;&gt;https://docs.conda.io/en/latest/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -149,10 +139,7 @@
       <link>https://www.rozanskit.com/teaching/jsp1920/rekursja/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.rozanskit.com/teaching/jsp1920/rekursja/</guid>
-      <description>
-
-&lt;h3 id=&#34;co-to-jest-rekurencja&#34;&gt;Co to jest Rekurencja?&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;co-to-jest-rekurencja&#34;&gt;Co to jest Rekurencja?&lt;/h3&gt;
 &lt;p&gt;Zacznijmy od &lt;a href=&#34;https://www.google.com/search?q=recursion&amp;amp;oq=recursion&amp;amp;aqs=chrome.0.69i59j0l2j69i60l3.1383j0j7&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&#34;&gt;żartu&lt;/a&gt;. Rekurencja (ang.&lt;em&gt;recursion&lt;/em&gt;) występuje, gdy definicja typu czy funkcji odwołuje się sama do siebie. Przykładem rekurencyjnej definicji funkcji może być definicja ciągu Fibonacciego:
 $$
 F_n =
@@ -163,36 +150,24 @@ F_{n-1} + F_{n-2},&amp;amp; \text{if } x \geq 2 \newline
 \end{cases}
 $$
 A przykładem rekurencyjnej definicji struktury danych (typu) może być definicja listy jednokierunkowej:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code&gt;struct node
 {
   int data;           // some integer data
   struct node *next;  // pointer to another struct node
 };
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Dzięki rekurencji łatwo można w prosty sposób zdefiniować niektóre zbiory fraktalne, np. trójkąt Sierpińskiego:
-&lt;img src=&#34;https://www.rozanskit.com/images/Sierpinski_triangle_evolution.png&#34; alt=&#34;Trójkąt Sierpińskiego&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;wieże-hanoi&#34;&gt;Wieże Hanoi&lt;/h3&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Dzięki rekurencji łatwo można w prosty sposób zdefiniować niektóre zbiory fraktalne, np. trójkąt Sierpińskiego:
+&lt;img src=&#34;https://www.rozanskit.com/images/Sierpinski_triangle_evolution.png&#34; alt=&#34;Trójkąt Sierpińskiego&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;wiee-hanoi&#34;&gt;Wieże Hanoi&lt;/h3&gt;
 &lt;p&gt;Mamy trzy stosy. Na jednym w nich od najmniejszego do największego (patrząc z góry) ułożone jest $N$ krążków. Pozostałe 2 stosy są puste. Zadanie polega na przeniesieniu krążków na wybrany z dwóch pozostałych stosów tak żeby zachować kolejność. Zasady:&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;jednocześnie przenosić można tylko jeden krążek,&lt;/li&gt;
 &lt;li&gt;większy krążek nigdy nie może leżeć na mniejszym.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Można zajrzeć &lt;a href=&#34;http://www.javawithus.com/programs/towers-of-hanoi&#34;&gt;tutaj&lt;/a&gt; po dokładniejszy opis.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.rozanskit.com/gifs/NwAPw.gif&#34; alt=&#34;Wieże Hanoi&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://www.rozanskit.com/gifs/NwAPw.gif&#34; alt=&#34;Wieże Hanoi&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;wyzwanie-1&#34;&gt;Wyzwanie 1.&lt;/h3&gt;
-
 &lt;p&gt;Spróbuj na kartce papieru rozwiązać zagadkę dla 3 krążków.&lt;/p&gt;
-
-&lt;h3 id=&#34;pseudokod-rozwiązania-rekurencyjnego&#34;&gt;Pseudokod rozwiązania rekurencyjnego&lt;/h3&gt;
-
+&lt;h3 id=&#34;pseudokod-rozwizania-rekurencyjnego&#34;&gt;Pseudokod rozwiązania rekurencyjnego&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;function move(n, source, target, buffer):
     if n == 0:
        return
@@ -205,10 +180,7 @@ A przykładem rekurencyjnej definicji struktury danych (typu) może być definic
 
     # move the n - 1 disks that we left on helping onto target
     move(n - 1, buffer, target, source)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;co-należy-zrobić&#34;&gt;Co należy zrobić?&lt;/h3&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;co-naley-zrobi&#34;&gt;Co należy zrobić?&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Zaimplementuj rekurencyjną funkcję wiezeHanoi(N:int), która rozwiąże problem i jednocześnie na konsoli wyświetli jakąś wizualizację wykonanych ruchów. (Podpowiedź: Krążki reprezentuj przez liczby naturalne a stosy przez listy.)&lt;/li&gt;
 &lt;li&gt;Czy potrafisz wyjaśnić dlaczego zaprezentowany algortym działa?&lt;/li&gt;
@@ -221,22 +193,15 @@ A przykładem rekurencyjnej definicji struktury danych (typu) może być definic
       <link>https://www.rozanskit.com/teaching/jsp1920/bubble_sort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.rozanskit.com/teaching/jsp1920/bubble_sort/</guid>
-      <description>
-
-&lt;h3 id=&#34;na-czym-polega-sortowanie-bąbelkowe&#34;&gt;Na czym polega sortowanie bąbelkowe?&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;na-czym-polega-sortowanie-bbelkowe&#34;&gt;Na czym polega sortowanie bąbelkowe?&lt;/h3&gt;
 &lt;p&gt;Wikipedia: &amp;ldquo;[Sortowanie bąbelkowe] Polega na porównywaniu dwóch kolejnych elementów i zamianie ich kolejności, jeżeli zaburza ona porządek, w jakim się sortuje tablicę. Sortowanie kończy się, gdy podczas kolejnego przejścia nie dokonano żadnej zmiany.&amp;rdquo;&lt;/p&gt;
-
 &lt;h3 id=&#34;wizualizacja&#34;&gt;Wizualizacja&lt;/h3&gt;
-
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/nmhjrI-aW5o&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-
 &lt;h3 id=&#34;pseudokod&#34;&gt;Pseudokod&lt;/h3&gt;
-
 &lt;pre&gt;&lt;code&gt;procedure bubbleSort( A : lista elementów do posortowania )
   n = liczba_elementów(A)
    do
@@ -248,10 +213,7 @@ A przykładem rekurencyjnej definicji struktury danych (typu) może być definic
     n = n-1 # Dlaczego?
   while n &amp;gt; 1
 end procedure
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;co-należy-zaimplementować&#34;&gt;Co należy zaimplementować?&lt;/h3&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;co-naley-zaimplementowa&#34;&gt;Co należy zaimplementować?&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Zaimplementuj funkcję bubble_sort(), która jako argument przyjmuje listę a zwraca listę posortowaną.&lt;/li&gt;
 &lt;li&gt;W funkcji main() wygeneruj losową listę liczb o długości N=1000.&lt;/li&gt;
@@ -259,9 +221,7 @@ end procedure
 &lt;li&gt;Sprawdź czy lista zwrócona przez funkcję jest posortowana.&lt;/li&gt;
 &lt;li&gt;Zmierz czas potrzebny na wykonanie sortowania N = {10, 100, 1000, 10000} liczb.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4 id=&#34;pytania&#34;&gt;Pytania&lt;/h4&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Jak rośnie czas wykonania algorymtu wraz ze wzrostem długości danych N (liniowo, kwadratowo, logarytmicznie, &amp;hellip;)?&lt;/li&gt;
 &lt;li&gt;Ile maksymalnie porównań może wykonać zaimplementowane sortowanie (w funkcji N)?&lt;/li&gt;
@@ -274,40 +234,26 @@ end procedure
       <link>https://www.rozanskit.com/teaching/jsp1920/merge_sort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.rozanskit.com/teaching/jsp1920/merge_sort/</guid>
-      <description>
-
-&lt;h3 id=&#34;na-czym-polega-sortowanie-przez-scalanie&#34;&gt;Na czym polega sortowanie przez scalanie?&lt;/h3&gt;
-
-&lt;p&gt;Algorytm sortowania przez scalanie (ang. &lt;em&gt;merge sort&lt;/em&gt;) wykorzystuje metodę ,,dziel i zwyciężaj&amp;rdquo; (ang. &lt;em&gt;divide-and-conquer&lt;/em&gt;). Algorytmy tego typu wywołują same siebie (jeden lub więcej razy), tzn. mają strukturę rekurencyjną. Metoda ,,dziel i zwyciężaj&amp;rdquo; polega na podzieleniu problemu na mniejsze podproblemy, rozwiązaniu ich a następnie połączeniu rozwiązań podproblemów w celu uzyskania rozwiązania początkowego, pełnego problemu.&lt;/p&gt;
-
+      <description>&lt;h3 id=&#34;na-czym-polega-sortowanie-przez-scalanie&#34;&gt;Na czym polega sortowanie przez scalanie?&lt;/h3&gt;
+&lt;p&gt;Algorytm sortowania przez scalanie (ang. &lt;em&gt;merge sort&lt;/em&gt;) wykorzystuje metodę ,,dziel i zwyciężaj&amp;rsquo;&amp;rsquo; (ang. &lt;em&gt;divide-and-conquer&lt;/em&gt;). Algorytmy tego typu wywołują same siebie (jeden lub więcej razy), tzn. mają strukturę rekurencyjną. Metoda ,,dziel i zwyciężaj&amp;rsquo;&amp;rsquo; polega na podzieleniu problemu na mniejsze podproblemy, rozwiązaniu ich a następnie połączeniu rozwiązań podproblemów w celu uzyskania rozwiązania początkowego, pełnego problemu.&lt;/p&gt;
 &lt;p&gt;Ogólny opis algorytmu sortowania przez scalanie jest następujący:&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Podziel $n$-elementowy ciąg na dwa podciągi po $n/2$ elementów każdy.&lt;/li&gt;
 &lt;li&gt;Posortuj otrzymane podciągi, używając rekurencyjnie sortowania przez scalanie.&lt;/li&gt;
 &lt;li&gt;Połącz posortowanie podciągi w jeden posortowany ciąg.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Rekursja kończy się gdy ciąg do posortowania ma długość równą 1 - ciąg o długości 1 zawsze jest posortowany.&lt;/p&gt;
-
-&lt;p&gt;Kluczowym elementem algorytmu jest procedura $\text{MERGE}(A,p,q,r)$, gdzie $A$ to tablica, a $p,~q,~r$ są indeksami ($p\le q\le r$). Procedura zakłada, że podciągi $A[p..q]$ i $A[q..r]$ są posortowane. Po jej wywołaniu tablica $A[p..r]$ jest posortowana. (&lt;em&gt;Opracowano na podstawie książki T. H. Cormen i in. ,,Wprowadzenie do algorytmów&amp;rdquo;.&lt;/em&gt;)&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.rozanskit.com/gifs/Merge-sort-example-300px.gif&#34; alt=&#34;Sortowanie przez scalanie&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;Kluczowym elementem algorytmu jest procedura $\text{MERGE}(A,p,q,r)$, gdzie $A$ to tablica, a $p,~q,~r$ są indeksami ($p\le q\le r$). Procedura zakłada, że podciągi $A[p..q]$ i $A[q..r]$ są posortowane. Po jej wywołaniu tablica $A[p..r]$ jest posortowana. (&lt;em&gt;Opracowano na podstawie książki T. H. Cormen i in. ,,Wprowadzenie do algorytmów&amp;rsquo;&#39;.&lt;/em&gt;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.rozanskit.com/gifs/Merge-sort-example-300px.gif&#34; alt=&#34;Sortowanie przez scalanie&#34;&gt;&lt;/p&gt;
 &lt;p&gt;(Grafika pochodzi z &lt;a href=&#34;https://en.wikipedia.org/wiki/Merge_sort#/media/File:Merge-sort-example-300px.gif&#34;&gt;artykułu w angielskojęzycznej Wikipedii&lt;/a&gt;)&lt;/p&gt;
-
 &lt;h3 id=&#34;wizualizacja&#34;&gt;Wizualizacja&lt;/h3&gt;
-
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/XaqR3G_NVoo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-
 &lt;h3 id=&#34;pseudokod&#34;&gt;Pseudokod&lt;/h3&gt;
-
 &lt;pre&gt;&lt;code&gt;procedure mergeSort( A, p, r)
   // posortuj tablicę A -&amp;gt; mergeSort(A, 0, length(A)-1)
   if p &amp;lt; r
@@ -337,17 +283,12 @@ procedure merge(A, p, q, r)
       A[k] = R[j]
       j++
     endif
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;co-należy-zaimplementować&#34;&gt;Co należy zaimplementować?&lt;/h3&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;co-naley-zaimplementowa&#34;&gt;Co należy zaimplementować?&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Zaimplementuj funkcję merge_sort(), która jako argument przyjmuje listę a zwraca listę posortowaną.&lt;/li&gt;
 &lt;li&gt;Porównaj czas sortowania list o długości 5, 10, 50, 100, 1000 elementów przy pomocy algorytmów mergeSort() i insertionSort().&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4 id=&#34;pytania&#34;&gt;Pytania&lt;/h4&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Jak rośnie czas wykonania algorymtu wraz ze wzrostem długości danych N (liniowo, kwadratowo, logarytmicznie, &amp;hellip;)?&lt;/li&gt;
 &lt;li&gt;Czy algorytm sortowania przez scalanie jest zawsze szybszy od algorytmu sortowania przez wstawianie?&lt;/li&gt;
@@ -360,22 +301,15 @@ procedure merge(A, p, q, r)
       <link>https://www.rozanskit.com/teaching/jsp1920/insertion_sort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.rozanskit.com/teaching/jsp1920/insertion_sort/</guid>
-      <description>
-
-&lt;h3 id=&#34;na-czym-polega-sortowanie-przez-wstawianie&#34;&gt;Na czym polega sortowanie przez wstawianie?&lt;/h3&gt;
-
-&lt;p&gt;Na podstawie książki T. H. Cormen i in. ,,Wprowadzenie do algorytmów&amp;rdquo;: Sortowanie przez wstawianie jest efektywnym algorytmem sortowania dla niewielkiej liczby elementów. Algorytm ten działa w taki sposób,  jaki ludzie często porządkują rozdane karty. Zaczynamy od ,,pustej&amp;rdquo; lewej ręki i kupki kart zakrytych na stole. Następnie bierzemy ze stołu kolejno po jednej karcie i wstawiamy ją we właściwe miejsce wśród kart trzymanych w lewej ręce. Aby znaleźć włąściwe miejsce dla danej karty, porównujemy ją z kartami, które już mamy w ręce, przeglądając je od strony prawej do lewej. Przez cały czas karty trzymane w lewej ręce są posortowane, a kart na stole znajdują się w losowej kolejności.&lt;/p&gt;
-
+      <description>&lt;h3 id=&#34;na-czym-polega-sortowanie-przez-wstawianie&#34;&gt;Na czym polega sortowanie przez wstawianie?&lt;/h3&gt;
+&lt;p&gt;Na podstawie książki T. H. Cormen i in. ,,Wprowadzenie do algorytmów&amp;rsquo;&#39;: Sortowanie przez wstawianie jest efektywnym algorytmem sortowania dla niewielkiej liczby elementów. Algorytm ten działa w taki sposób,  jaki ludzie często porządkują rozdane karty. Zaczynamy od ,,pustej&amp;rsquo;&amp;rsquo; lewej ręki i kupki kart zakrytych na stole. Następnie bierzemy ze stołu kolejno po jednej karcie i wstawiamy ją we właściwe miejsce wśród kart trzymanych w lewej ręce. Aby znaleźć włąściwe miejsce dla danej karty, porównujemy ją z kartami, które już mamy w ręce, przeglądając je od strony prawej do lewej. Przez cały czas karty trzymane w lewej ręce są posortowane, a kart na stole znajdują się w losowej kolejności.&lt;/p&gt;
 &lt;h3 id=&#34;wizualizacja&#34;&gt;Wizualizacja&lt;/h3&gt;
-
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/OGzPmgsI-pQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-
 &lt;h3 id=&#34;pseudokod&#34;&gt;Pseudokod&lt;/h3&gt;
-
 &lt;pre&gt;&lt;code&gt;procedure insertionSort( A : lista elementów do posortowania )
   n = liczba_elementów(A)
   for (i = 1; i &amp;lt; n; i++) do
@@ -386,10 +320,7 @@ procedure merge(A, p, q, r)
       A[j+1] = A[j]
       j -= 1
     A[i+1] = key
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;co-należy-zaimplementować&#34;&gt;Co należy zaimplementować?&lt;/h3&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;co-naley-zaimplementowa&#34;&gt;Co należy zaimplementować?&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Zaimplementuj funkcję insert_sort(), która jako argument przyjmuje listę a zwraca listę posortowaną.&lt;/li&gt;
 &lt;li&gt;W funkcji main() wygeneruj losową listę liczb o długości N=1000.&lt;/li&gt;
@@ -397,9 +328,7 @@ procedure merge(A, p, q, r)
 &lt;li&gt;Sprawdź czy lista zwrócona przez funkcję jest posortowana.&lt;/li&gt;
 &lt;li&gt;Zmierz czas potrzebny na wykonanie sortowania N = {10, 100, 1000, 10000} liczb.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4 id=&#34;pytania&#34;&gt;Pytania&lt;/h4&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Jak rośnie czas wykonania algorymtu wraz ze wzrostem długości danych N (liniowo, kwadratowo, logarytmicznie, &amp;hellip;)?&lt;/li&gt;
 &lt;li&gt;Czy masz jakieś pomysły na usprawnienie sortowania przez scalanie (zmniejszenie liczby porównań, zmiejszenie liczy przestawień)?&lt;/li&gt;
@@ -411,30 +340,18 @@ procedure merge(A, p, q, r)
       <link>https://www.rozanskit.com/teaching/jsp1920/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.rozanskit.com/teaching/jsp1920/git/</guid>
-      <description>
-
-&lt;h3 id=&#34;literatura&#34;&gt;Literatura&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;literatura&#34;&gt;Literatura&lt;/h3&gt;
 &lt;p&gt;Wszystkie informacje zamieszczone poniżej, pochodzą z doskonałego wprowadzenia do systemu kontroli wersji Git, które można znaleźć w książce: &lt;a href=&#34;https://git-scm.com/book/pl/v2&#34;&gt;Pro Git (S. Chacon, B. Straub)&lt;/a&gt;.&lt;/p&gt;
-
 &lt;h3 id=&#34;co-to-jest-system-kontroli-wersji-i-dlaczego-go-potrzebujemy&#34;&gt;Co to jest system kontroli wersji i dlaczego go potrzebujemy?&lt;/h3&gt;
-
 &lt;p&gt;Systemy kontroli wersji służą śledzeniu i zapamiętywaniu wszystkich zmian wprowadzanych w projekcie nad, którym pracujemy. Zmiany mogą dotyczyć zmian w kodzie źródłowym programu, ale nie tylko - mogą to być zmiany dowolnych plików (lub w plikach). Dzięki historii zmian możemy w dowolnym momencie przywrócić wcześniejszy stan projektu, czy sprawdzić kto jest autorem danego fragmentu kodu.&lt;/p&gt;
-
 &lt;p&gt;Prawdziwa wartość systemów kontroli wersji jest widoczna w pracy grupowej, kiedy wielu programistów jednocześnie pracuje nad przydzielonymi im funkcjonalnościami oprogramowania. Wtedy uporządkowana praca pozwala na łatwe rozszerzanie możliwości programu i rozwiązywanie konfliktów, czyli problemów które mogą wystąpić podczas scalania zmian wykonanych przez dwóch programistów w tym samym pliku.&lt;/p&gt;
-
 &lt;h3 id=&#34;quick-start&#34;&gt;Quick start&lt;/h3&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Utwórz katalog, który będzie twoim katalogiem projektu.&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Wejdź do nowo utworzonego katalogu i zainicjalizuj w nim&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git init
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Wejdź do nowo utworzonego katalogu i zainicjalizuj w nim&lt;/li&gt;
 &lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;git init
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
   </channel>

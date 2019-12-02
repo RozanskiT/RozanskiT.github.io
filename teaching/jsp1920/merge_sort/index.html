@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="https://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=">
   <link rel="stylesheet" href="https://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=">
   
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.60.1" />
 </head>
 <body>
   <nav class="u-background">
@@ -65,40 +65,26 @@
   </h2>
   
 </header>
-  
-
-<h3 id="na-czym-polega-sortowanie-przez-scalanie">Na czym polega sortowanie przez scalanie?</h3>
-
-<p>Algorytm sortowania przez scalanie (ang. <em>merge sort</em>) wykorzystuje metodę ,,dziel i zwyciężaj&rdquo; (ang. <em>divide-and-conquer</em>). Algorytmy tego typu wywołują same siebie (jeden lub więcej razy), tzn. mają strukturę rekurencyjną. Metoda ,,dziel i zwyciężaj&rdquo; polega na podzieleniu problemu na mniejsze podproblemy, rozwiązaniu ich a następnie połączeniu rozwiązań podproblemów w celu uzyskania rozwiązania początkowego, pełnego problemu.</p>
-
+  <h3 id="na-czym-polega-sortowanie-przez-scalanie">Na czym polega sortowanie przez scalanie?</h3>
+<p>Algorytm sortowania przez scalanie (ang. <em>merge sort</em>) wykorzystuje metodę ,,dziel i zwyciężaj&rsquo;&rsquo; (ang. <em>divide-and-conquer</em>). Algorytmy tego typu wywołują same siebie (jeden lub więcej razy), tzn. mają strukturę rekurencyjną. Metoda ,,dziel i zwyciężaj&rsquo;&rsquo; polega na podzieleniu problemu na mniejsze podproblemy, rozwiązaniu ich a następnie połączeniu rozwiązań podproblemów w celu uzyskania rozwiązania początkowego, pełnego problemu.</p>
 <p>Ogólny opis algorytmu sortowania przez scalanie jest następujący:</p>
-
 <ul>
 <li>Podziel $n$-elementowy ciąg na dwa podciągi po $n/2$ elementów każdy.</li>
 <li>Posortuj otrzymane podciągi, używając rekurencyjnie sortowania przez scalanie.</li>
 <li>Połącz posortowanie podciągi w jeden posortowany ciąg.</li>
 </ul>
-
 <p>Rekursja kończy się gdy ciąg do posortowania ma długość równą 1 - ciąg o długości 1 zawsze jest posortowany.</p>
-
-<p>Kluczowym elementem algorytmu jest procedura $\text{MERGE}(A,p,q,r)$, gdzie $A$ to tablica, a $p,~q,~r$ są indeksami ($p\le q\le r$). Procedura zakłada, że podciągi $A[p..q]$ i $A[q..r]$ są posortowane. Po jej wywołaniu tablica $A[p..r]$ jest posortowana. (<em>Opracowano na podstawie książki T. H. Cormen i in. ,,Wprowadzenie do algorytmów&rdquo;.</em>)</p>
-
-<hr />
-
-<p><img src="https://www.rozanskit.com/gifs/Merge-sort-example-300px.gif" alt="Sortowanie przez scalanie" /></p>
-
+<p>Kluczowym elementem algorytmu jest procedura $\text{MERGE}(A,p,q,r)$, gdzie $A$ to tablica, a $p,~q,~r$ są indeksami ($p\le q\le r$). Procedura zakłada, że podciągi $A[p..q]$ i $A[q..r]$ są posortowane. Po jej wywołaniu tablica $A[p..r]$ jest posortowana. (<em>Opracowano na podstawie książki T. H. Cormen i in. ,,Wprowadzenie do algorytmów&rsquo;'.</em>)</p>
+<hr>
+<p><img src="https://www.rozanskit.com/gifs/Merge-sort-example-300px.gif" alt="Sortowanie przez scalanie"></p>
 <p>(Grafika pochodzi z <a href="https://en.wikipedia.org/wiki/Merge_sort#/media/File:Merge-sort-example-300px.gif">artykułu w angielskojęzycznej Wikipedii</a>)</p>
-
 <h3 id="wizualizacja">Wizualizacja</h3>
-
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/XaqR3G_NVoo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
-
 <h3 id="pseudokod">Pseudokod</h3>
-
 <pre><code>procedure mergeSort( A, p, r)
   // posortuj tablicę A -&gt; mergeSort(A, 0, length(A)-1)
   if p &lt; r
@@ -128,17 +114,12 @@ procedure merge(A, p, q, r)
       A[k] = R[j]
       j++
     endif
-</code></pre>
-
-<h3 id="co-należy-zaimplementować">Co należy zaimplementować?</h3>
-
+</code></pre><h3 id="co-naley-zaimplementowa">Co należy zaimplementować?</h3>
 <ol>
 <li>Zaimplementuj funkcję merge_sort(), która jako argument przyjmuje listę a zwraca listę posortowaną.</li>
 <li>Porównaj czas sortowania list o długości 5, 10, 50, 100, 1000 elementów przy pomocy algorytmów mergeSort() i insertionSort().</li>
 </ol>
-
 <h4 id="pytania">Pytania</h4>
-
 <ol>
 <li>Jak rośnie czas wykonania algorymtu wraz ze wzrostem długości danych N (liniowo, kwadratowo, logarytmicznie, &hellip;)?</li>
 <li>Czy algorytm sortowania przez scalanie jest zawsze szybszy od algorytmu sortowania przez wstawianie?</li>

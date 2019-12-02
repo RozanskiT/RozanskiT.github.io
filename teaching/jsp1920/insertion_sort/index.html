@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="https://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=">
   <link rel="stylesheet" href="https://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=">
   
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.60.1" />
 </head>
 <body>
   <nav class="u-background">
@@ -65,22 +65,15 @@
   </h2>
   
 </header>
-  
-
-<h3 id="na-czym-polega-sortowanie-przez-wstawianie">Na czym polega sortowanie przez wstawianie?</h3>
-
-<p>Na podstawie książki T. H. Cormen i in. ,,Wprowadzenie do algorytmów&rdquo;: Sortowanie przez wstawianie jest efektywnym algorytmem sortowania dla niewielkiej liczby elementów. Algorytm ten działa w taki sposób,  jaki ludzie często porządkują rozdane karty. Zaczynamy od ,,pustej&rdquo; lewej ręki i kupki kart zakrytych na stole. Następnie bierzemy ze stołu kolejno po jednej karcie i wstawiamy ją we właściwe miejsce wśród kart trzymanych w lewej ręce. Aby znaleźć włąściwe miejsce dla danej karty, porównujemy ją z kartami, które już mamy w ręce, przeglądając je od strony prawej do lewej. Przez cały czas karty trzymane w lewej ręce są posortowane, a kart na stole znajdują się w losowej kolejności.</p>
-
+  <h3 id="na-czym-polega-sortowanie-przez-wstawianie">Na czym polega sortowanie przez wstawianie?</h3>
+<p>Na podstawie książki T. H. Cormen i in. ,,Wprowadzenie do algorytmów&rsquo;': Sortowanie przez wstawianie jest efektywnym algorytmem sortowania dla niewielkiej liczby elementów. Algorytm ten działa w taki sposób,  jaki ludzie często porządkują rozdane karty. Zaczynamy od ,,pustej&rsquo;&rsquo; lewej ręki i kupki kart zakrytych na stole. Następnie bierzemy ze stołu kolejno po jednej karcie i wstawiamy ją we właściwe miejsce wśród kart trzymanych w lewej ręce. Aby znaleźć włąściwe miejsce dla danej karty, porównujemy ją z kartami, które już mamy w ręce, przeglądając je od strony prawej do lewej. Przez cały czas karty trzymane w lewej ręce są posortowane, a kart na stole znajdują się w losowej kolejności.</p>
 <h3 id="wizualizacja">Wizualizacja</h3>
-
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/OGzPmgsI-pQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
-
 <h3 id="pseudokod">Pseudokod</h3>
-
 <pre><code>procedure insertionSort( A : lista elementów do posortowania )
   n = liczba_elementów(A)
   for (i = 1; i &lt; n; i++) do
@@ -91,10 +84,7 @@
       A[j+1] = A[j]
       j -= 1
     A[i+1] = key
-</code></pre>
-
-<h3 id="co-należy-zaimplementować">Co należy zaimplementować?</h3>
-
+</code></pre><h3 id="co-naley-zaimplementowa">Co należy zaimplementować?</h3>
 <ol>
 <li>Zaimplementuj funkcję insert_sort(), która jako argument przyjmuje listę a zwraca listę posortowaną.</li>
 <li>W funkcji main() wygeneruj losową listę liczb o długości N=1000.</li>
@@ -102,9 +92,7 @@
 <li>Sprawdź czy lista zwrócona przez funkcję jest posortowana.</li>
 <li>Zmierz czas potrzebny na wykonanie sortowania N = {10, 100, 1000, 10000} liczb.</li>
 </ol>
-
 <h4 id="pytania">Pytania</h4>
-
 <ol>
 <li>Jak rośnie czas wykonania algorymtu wraz ze wzrostem długości danych N (liniowo, kwadratowo, logarytmicznie, &hellip;)?</li>
 <li>Czy masz jakieś pomysły na usprawnienie sortowania przez scalanie (zmniejszenie liczby porównań, zmiejszenie liczy przestawień)?</li>

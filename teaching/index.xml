@@ -111,10 +111,7 @@
       <link>https://www.rozanskit.com/teaching/jsp1920/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.rozanskit.com/teaching/jsp1920/</guid>
-      <description>
-
-&lt;h3 id=&#34;zasady-zaliczenia&#34;&gt;Zasady zaliczenia&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;zasady-zaliczenia&#34;&gt;Zasady zaliczenia&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -122,55 +119,43 @@
 &lt;th&gt;Ocena&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;(80, 100]&lt;/td&gt;
 &lt;td&gt;5&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;(70, 80]&lt;/td&gt;
 &lt;td&gt;4.5&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;(60, 70]&lt;/td&gt;
 &lt;td&gt;4.0&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;(50, 60]&lt;/td&gt;
 &lt;td&gt;3.5&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;(40, 50]&lt;/td&gt;
 &lt;td&gt;3.0&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;[0, 40]&lt;/td&gt;
 &lt;td&gt;2.0&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;p&gt;Wynik $W$ wyliczany jest za pomocą wzoru:
 $$ W = \frac{1}{4}x_1 + \frac{1}{4}x_2 + \frac{1}{2}x_3 $$&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;$x_1 \in [0,1]$ - suma punktów zdobytych za wszystkie listy zadań podzielona przez maksymalną liczbę punktów do zdobycia za listy zadań (unormowana do jedności),&lt;/li&gt;
 &lt;li&gt;$x_2 \in [0,1]$ - suma punktów do zdobycia za wszystkie wejściówki unormowana do jedności,&lt;/li&gt;
 &lt;li&gt;$x_3\in [0,1]$ - średnia z ocen za 1. i 2. kolokwium unormowanych do jedności.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&#34;repozytorium-z-materiałami&#34;&gt;Repozytorium z materiałami&lt;/h3&gt;
-
+&lt;h3 id=&#34;repozytorium-z-materiaami&#34;&gt;Repozytorium z materiałami&lt;/h3&gt;
 &lt;p&gt;W tym &lt;a href=&#34;https://github.com/RozanskiT/JSP2019&#34;&gt;repozytorium&lt;/a&gt; znaleźć można udostępnione przeze mnie kody i inne materiały.&lt;/p&gt;
-
-&lt;h3 id=&#34;listy-zadań&#34;&gt;Listy zadań&lt;/h3&gt;
-
+&lt;h3 id=&#34;listy-zada&#34;&gt;Listy zadań&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/linelists/Lista1.pdf&#34;&gt;Lista 1 (do 17.10.2019, 06:00)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/linelists/Lista2.pdf&#34;&gt;Lista 2 (do 24.10.2019, 06:00)&lt;/a&gt;&lt;/li&gt;
@@ -179,19 +164,16 @@ $$ W = \frac{1}{4}x_1 + \frac{1}{4}x_2 + \frac{1}{2}x_3 $$&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/linelists/Lista5.pdf&#34;&gt;Lista 5 (do 14.11.2019, 06:00)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/linelists/Lista6.pdf&#34;&gt;Lista 6 (do 28.11.2019, 06:00)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/linelists/Lista7.pdf&#34;&gt;Lista 7 (do 05.12.2019, 06:00)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/linelists/Lista8.pdf&#34;&gt;Lista 8 (do 12.12.2019, 06:00)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&#34;materiały&#34;&gt;Materiały&lt;/h3&gt;
-
+&lt;h3 id=&#34;materiay&#34;&gt;Materiały&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsp1920/introduction/&#34;&gt;Podstawowe informacje i instalacja Pythona&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsp1920/git/&#34;&gt;Wprowadzenie do systemu kontroli wersji - Git&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/post/python_introduction/&#34;&gt;Podstawy języka Python w jednym notebooku (po angielsku)&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h3 id=&#34;wyzwania-dla-bardziej-zaawansowanych-i-zainteresowanych&#34;&gt;Wyzwania dla bardziej zaawansowanych i zainteresowanych&lt;/h3&gt;
-
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsp1920/bubble_sort/&#34;&gt;Sortowanie bąbelkowe&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsp1920/insertion_sort/&#34;&gt;Sortowanie przez wstawianie&lt;/a&gt;&lt;/li&gt;
