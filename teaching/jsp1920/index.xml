@@ -331,7 +331,7 @@ procedure merge(A, p, q, r)
 &lt;h4 id=&#34;pytania&#34;&gt;Pytania&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;Jak rośnie czas wykonania algorymtu wraz ze wzrostem długości danych N (liniowo, kwadratowo, logarytmicznie, &amp;hellip;)?&lt;/li&gt;
-&lt;li&gt;Czy masz jakieś pomysły na usprawnienie sortowania przez scalanie (zmniejszenie liczby porównań, zmiejszenie liczy przestawień)?&lt;/li&gt;
+&lt;li&gt;Czy masz jakieś pomysły na usprawnienie sortowania przez wstawianie (zmniejszenie liczby porównań, zmiejszenie liczy przestawień)?&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
