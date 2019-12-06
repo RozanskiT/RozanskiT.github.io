@@ -297,7 +297,46 @@ procedure merge(A, p, q, r)
 </description>
     </item>
     <item>
-      <title>Sortowanie przez scalanie</title>
+      <title>Sortowanie przez wstawianie</title>
+      <link>https://www.rozanskit.com/teaching/jsp1920/insertion_sort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/teaching/jsp1920/insertion_sort/</guid>
+      <description>&lt;h3 id=&#34;na-czym-polega-sortowanie-przez-wstawianie&#34;&gt;Na czym polega sortowanie przez wstawianie?&lt;/h3&gt;
+&lt;p&gt;Na podstawie książki T. H. Cormen i in. ,,Wprowadzenie do algorytmów&amp;rsquo;&#39;: Sortowanie przez wstawianie jest efektywnym algorytmem sortowania dla niewielkiej liczby elementów. Algorytm ten działa w taki sposób,  jaki ludzie często porządkują rozdane karty. Zaczynamy od ,,pustej&amp;rsquo;&amp;rsquo; lewej ręki i kupki kart zakrytych na stole. Następnie bierzemy ze stołu kolejno po jednej karcie i wstawiamy ją we właściwe miejsce wśród kart trzymanych w lewej ręce. Aby znaleźć włąściwe miejsce dla danej karty, porównujemy ją z kartami, które już mamy w ręce, przeglądając je od strony prawej do lewej. Przez cały czas karty trzymane w lewej ręce są posortowane, a kart na stole znajdują się w losowej kolejności.&lt;/p&gt;
+&lt;h3 id=&#34;wizualizacja&#34;&gt;Wizualizacja&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/OGzPmgsI-pQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;pseudokod&#34;&gt;Pseudokod&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;procedure insertionSort( A : lista elementów do posortowania )
+  n = liczba_elementów(A)
+  for (i = 1; i &amp;lt; n; i++) do
+    key = A[i]
+    //Wstaw A[j] w posortowany ciąg A[0:i]
+    j = i - 1
+    while (j &amp;gt;= 0) and (A[j] &amp;gt; key)
+      A[j+1] = A[j]
+      j -= 1
+    A[i+1] = key
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;co-naley-zaimplementowa&#34;&gt;Co należy zaimplementować?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Zaimplementuj funkcję insert_sort(), która jako argument przyjmuje listę a zwraca listę posortowaną.&lt;/li&gt;
+&lt;li&gt;W funkcji main() wygeneruj losową listę liczb o długości N=1000.&lt;/li&gt;
+&lt;li&gt;Posortuj tę listę wykorzystując insert_sort().&lt;/li&gt;
+&lt;li&gt;Sprawdź czy lista zwrócona przez funkcję jest posortowana.&lt;/li&gt;
+&lt;li&gt;Zmierz czas potrzebny na wykonanie sortowania N = {10, 100, 1000, 10000} liczb.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;pytania&#34;&gt;Pytania&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Jak rośnie czas wykonania algorymtu wraz ze wzrostem długości danych N (liniowo, kwadratowo, logarytmicznie, &amp;hellip;)?&lt;/li&gt;
+&lt;li&gt;Czy masz jakieś pomysły na usprawnienie sortowania przez scalanie (zmniejszenie liczby porównań, zmiejszenie liczy przestawień)?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    <item>
+      <title>Sortowanie szybkie</title>
       <link>https://www.rozanskit.com/teaching/jsp1920/quick_sort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.rozanskit.com/teaching/jsp1920/quick_sort/</guid>
@@ -358,45 +397,6 @@ algorithm partition(A, lo, hi) is
 &lt;li&gt;Jakie znasz metody wyboru pivota? Która jest najlepsza?&lt;/li&gt;
 &lt;li&gt;Czym jest zrandomizowany quicksort?&lt;/li&gt;
 &lt;li&gt;Czy algorytm sortowania szybkiego jest zawsze szybszy od algorytmu sortowania przez scalanie? Dlaczego?&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    <item>
-      <title>Sortowanie przez wstawianie</title>
-      <link>https://www.rozanskit.com/teaching/jsp1920/insertion_sort/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.rozanskit.com/teaching/jsp1920/insertion_sort/</guid>
-      <description>&lt;h3 id=&#34;na-czym-polega-sortowanie-przez-wstawianie&#34;&gt;Na czym polega sortowanie przez wstawianie?&lt;/h3&gt;
-&lt;p&gt;Na podstawie książki T. H. Cormen i in. ,,Wprowadzenie do algorytmów&amp;rsquo;&#39;: Sortowanie przez wstawianie jest efektywnym algorytmem sortowania dla niewielkiej liczby elementów. Algorytm ten działa w taki sposób,  jaki ludzie często porządkują rozdane karty. Zaczynamy od ,,pustej&amp;rsquo;&amp;rsquo; lewej ręki i kupki kart zakrytych na stole. Następnie bierzemy ze stołu kolejno po jednej karcie i wstawiamy ją we właściwe miejsce wśród kart trzymanych w lewej ręce. Aby znaleźć włąściwe miejsce dla danej karty, porównujemy ją z kartami, które już mamy w ręce, przeglądając je od strony prawej do lewej. Przez cały czas karty trzymane w lewej ręce są posortowane, a kart na stole znajdują się w losowej kolejności.&lt;/p&gt;
-&lt;h3 id=&#34;wizualizacja&#34;&gt;Wizualizacja&lt;/h3&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/OGzPmgsI-pQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&#34;pseudokod&#34;&gt;Pseudokod&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;procedure insertionSort( A : lista elementów do posortowania )
-  n = liczba_elementów(A)
-  for (i = 1; i &amp;lt; n; i++) do
-    key = A[i]
-    //Wstaw A[j] w posortowany ciąg A[0:i]
-    j = i - 1
-    while (j &amp;gt;= 0) and (A[j] &amp;gt; key)
-      A[j+1] = A[j]
-      j -= 1
-    A[i+1] = key
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;co-naley-zaimplementowa&#34;&gt;Co należy zaimplementować?&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Zaimplementuj funkcję insert_sort(), która jako argument przyjmuje listę a zwraca listę posortowaną.&lt;/li&gt;
-&lt;li&gt;W funkcji main() wygeneruj losową listę liczb o długości N=1000.&lt;/li&gt;
-&lt;li&gt;Posortuj tę listę wykorzystując insert_sort().&lt;/li&gt;
-&lt;li&gt;Sprawdź czy lista zwrócona przez funkcję jest posortowana.&lt;/li&gt;
-&lt;li&gt;Zmierz czas potrzebny na wykonanie sortowania N = {10, 100, 1000, 10000} liczb.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;pytania&#34;&gt;Pytania&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;Jak rośnie czas wykonania algorymtu wraz ze wzrostem długości danych N (liniowo, kwadratowo, logarytmicznie, &amp;hellip;)?&lt;/li&gt;
-&lt;li&gt;Czy masz jakieś pomysły na usprawnienie sortowania przez scalanie (zmniejszenie liczby porównań, zmiejszenie liczy przestawień)?&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
