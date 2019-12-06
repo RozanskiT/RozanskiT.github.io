@@ -297,6 +297,71 @@ procedure merge(A, p, q, r)
 </description>
     </item>
     <item>
+      <title>Sortowanie przez scalanie</title>
+      <link>https://www.rozanskit.com/teaching/jsp1920/quick_sort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/teaching/jsp1920/quick_sort/</guid>
+      <description>&lt;h3 id=&#34;na-czym-polega-sortowanie-szybkie&#34;&gt;Na czym polega sortowanie szybkie?&lt;/h3&gt;
+&lt;p&gt;Algorytm sortowania szybkiego (ang. &lt;em&gt;quick sort&lt;/em&gt;), podobnie jak sortowanie przez scalanie, wykorzystuje metodę ,,dziel i zwyciężaj&amp;rsquo;&amp;rsquo; (ang. &lt;em&gt;divide-and-conquer&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Ogólny opis algorytmu quicksort jest następujący:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wybierz element tablicy zwany z angielskiego &lt;em&gt;pivot&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Podziel tablicę na dwie części - zawierającym elementy większe i elementy mniejsze od pivota. Po tym kroku tablica sortowana powinna wyglądać następująco: [elementy&amp;lt;pivot, pivot, elementy&amp;gt;pivot].&lt;/li&gt;
+&lt;li&gt;Zastosuj tę strategię rekurencyjnie dla obydwu części.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Rekursja kończy się gdy ciąg do posortowania ma długość równą 1 - ciąg o długości 1 zawsze jest posortowany.&lt;/p&gt;
+&lt;p&gt;Kluczowym elementem algorytmu jest procedura partycjonowania (ang. &lt;em&gt;partitioning&lt;/em&gt;). Istnieje kilka różnych strategii wykonywania podziału. Drugin ważnym elementem sortowania szybkiego jest metoda wyboru pivota. Typowo wykorzystuje się element ostatni, ale schemat jego wyboru jest dowolny. Optymalny pivot to taki który dzieli nam tablicę na dwie równe części.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.rozanskit.com/gifs/Sorting_quicksort_anim.gif&#34; alt=&#34;Sortowanie szybkie&#34;&gt;&lt;/p&gt;
+&lt;p&gt;(Grafika pochodzi z &lt;a href=&#34;https://en.wikipedia.org/wiki/Quicksort#/media/File:Sorting_quicksort_anim.gif&#34;&gt;artykułu w angielskojęzycznej Wikipedii&lt;/a&gt;)&lt;/p&gt;
+&lt;h3 id=&#34;wizualizacja&#34;&gt;Wizualizacja&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/PgBzjlCcFvc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;pseudokod&#34;&gt;Pseudokod&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;algorithm quick_sort(A, lo, hi) is
+    if lo &amp;lt; hi then
+        p := partition(A, lo, hi)
+        quicksort(A, lo, p)
+        quicksort(A, p + 1, hi)
+
+algorithm partition(A, lo, hi) is
+    &amp;quot;&amp;quot;&amp;quot;
+    Hoare partitioning method (1959)
+    &amp;quot;&amp;quot;&amp;quot;
+    pivot := A[lo + (hi - lo) / 2]
+    i := lo - 1
+    j := hi + 1
+    loop forever
+        do
+            i := i + 1
+        while A[i] &amp;lt; pivot
+        do
+            j := j - 1
+        while A[j] &amp;gt; pivot
+        if i &amp;gt;= j then
+            return j
+        swap A[i] with A[j]
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Aby posortować tablicę A należy wywołać zaimplementowaną funckję następująco: quick_sort(A, 0, len(A)-1).&lt;/p&gt;
+&lt;h3 id=&#34;co-naley-zaimplementowa&#34;&gt;Co należy zaimplementować?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Zaimplementuj funkcję quick_sort(), która jako argument przyjmuje listę a zwraca listę posortowaną.&lt;/li&gt;
+&lt;li&gt;Porównaj czas sortowania list o długości 5, 10, 50, 100, 1000 elementów przy pomocy algorytmów quick_sort() i merge_sort().&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;pytania&#34;&gt;Pytania&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Jak rośnie czas wykonania algorymtu wraz ze wzrostem długości danych N (liniowo, kwadratowo, logarytmicznie, &amp;hellip;)?&lt;/li&gt;
+&lt;li&gt;Jaka jest największa słabość algorytmu sortowania szybkiego?&lt;/li&gt;
+&lt;li&gt;Jakie znasz metody wyboru pivota? Która jest najlepsza?&lt;/li&gt;
+&lt;li&gt;Czym jest zrandomizowany quicksort?&lt;/li&gt;
+&lt;li&gt;Czy algorytm sortowania szybkiego jest zawsze szybszy od algorytmu sortowania przez scalanie? Dlaczego?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    <item>
       <title>Sortowanie przez wstawianie</title>
       <link>https://www.rozanskit.com/teaching/jsp1920/insertion_sort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
