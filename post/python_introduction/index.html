@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="https://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=">
   <link rel="stylesheet" href="https://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=">
   
-  <meta name="generator" content="Hugo 0.60.1" />
+  <meta name="generator" content="Hugo 0.61.0" />
 </head>
 <body>
   <nav class="u-background">
@@ -71,7 +71,7 @@
 </header>
   <hr>
 <h2 id="note">NOTE:</h2>
-<h2 id="notebook-which-is-availible-herehttpsgithubcomrozanskitjsp2019blobmasterpythonintroductionipynb-i-recommend-to-use-directly-that-notebook-because-of-useful-syntax-highlighting-and-possibility-to-play-around-while-analyzing-the-code">The content which can be found below comes from jupyter
+<h2 id="notebook-which-is-availible-herehttpsgithubcomrozanskitjsp2019blobmasterpython-introductionipynb-i-recommend-to-use-directly-that-notebook-because-of-useful-syntax-highlighting-and-possibility-to-play-around-while-analyzing-the-code">The content which can be found below comes from jupyter
 notebook which is availible <a href="https://github.com/RozanskiT/JSP2019/blob/master/Python_introduction.ipynb">here</a>. I recommend to use directly that notebook because of useful syntax highlighting and possibility to play around while analyzing the code.</h2>
 <h1 id="basic-programming-in-python">Basic programming in Python</h1>
 <p>A lot of things are missing here but for someone a bit familliar with programming it may give some basic Python filling.</p>
@@ -180,7 +180,7 @@ i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">type(True)
 </code></pre></div><pre><code>bool
 </code></pre>
-<h2 id="nonprimitives--lists-tuples-sets-dictionaries">Non-Primitives : Lists, Tuples, Sets, Dictionaries</h2>
+<h2 id="non-primitives--lists-tuples-sets-dictionaries">Non-Primitives : Lists, Tuples, Sets, Dictionaries</h2>
 <p><a href="https://docs.python.org/3/tutorial/datastructures.html#">Python data structures</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">type([<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">a</span><span style="color:#e6db74">&#39;</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2.1</span>])
 </code></pre></div><pre><code>list
@@ -610,7 +610,7 @@ Hi Bob!
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(f<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">10*5+3 = {Ax_plus_b(10,5,3)}</span><span style="color:#e6db74">&#39;</span>)
 </code></pre></div><pre><code>10*5+3 = 53
 </code></pre>
-<h3 id="builtin-functions">Built-in functions</h3>
+<h3 id="built-in-functions">Built-in functions</h3>
 <p>We already used several of them</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">type(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Hi!</span><span style="color:#e6db74">&#39;</span>)
 </code></pre></div><pre><code>str
@@ -880,7 +880,7 @@ today
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">next_birthday <span style="color:#f92672">-</span> today
 </code></pre></div><pre><code>datetime.timedelta(days=-1)
 </code></pre>
-<h4 id="datetime1">Datetime</h4>
+<h4 id="datetime-1">Datetime</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">t1 <span style="color:#f92672">=</span> datetime<span style="color:#f92672">.</span>datetime<span style="color:#f92672">.</span>now()
 </code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">t2 <span style="color:#f92672">=</span> datetime<span style="color:#f92672">.</span>datetime<span style="color:#f92672">.</span>now()
 </code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">elapsed_delta <span style="color:#f92672">=</span> t2 <span style="color:#f92672">-</span> t1
@@ -991,7 +991,7 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 </code></pre>
-<h3 id="oh-be-a-fine-girl-kiss-me--obafgkm-mnemonic">Oh, Be A fine Girl Kiss Me! - OBAFGKM mnemonic</h3>
+<h3 id="oh-be-a-fine-girl-kiss-me---obafgkm-mnemonic">Oh, Be A fine Girl Kiss Me! - OBAFGKM mnemonic</h3>
 <p><a href="http://www.star.ucl.ac.uk/~pac/obafgkmrns.html">OBAFGKM</a></p>
 
   
