@@ -44,12 +44,12 @@
   </url>
   
   <url>
-    <loc>https://www.rozanskit.com/categories/astronomy/</loc>
+    <loc>https://www.rozanskit.com/tags/astronomy/</loc>
     <lastmod>2019-05-22T01:45:10+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.rozanskit.com/tags/astronomy/</loc>
+    <loc>https://www.rozanskit.com/categories/astronomy/</loc>
     <lastmod>2019-05-22T01:45:10+02:00</lastmod>
   </url>
   
@@ -98,6 +98,10 @@
   
   <url>
     <loc>https://www.rozanskit.com/teaching/jsp1920/quick_sort/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.rozanskit.com/teaching/tag1920/</loc>
   </url>
   
   <url>
