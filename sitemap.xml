@@ -4,22 +4,47 @@
   
   <url>
     <loc>https://www.rozanskit.com/</loc>
-    <lastmod>2019-10-17T21:30:10+02:00</lastmod>
+    <lastmod>2020-06-30T23:56:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.rozanskit.com/post/python_introduction/</loc>
-    <lastmod>2019-10-17T21:30:10+02:00</lastmod>
+    <loc>https://www.rozanskit.com/categories/astronomy/</loc>
+    <lastmod>2020-06-30T23:56:28+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.rozanskit.com/categories/</loc>
-    <lastmod>2019-10-17T21:30:10+02:00</lastmod>
+    <lastmod>2020-06-30T23:56:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.rozanskit.com/tags/gwiazdy-3he/</loc>
+    <lastmod>2020-06-30T23:56:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.rozanskit.com/post/gwiazdy_3he/</loc>
+    <lastmod>2020-06-30T23:56:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.rozanskit.com/tags/pl/</loc>
+    <lastmod>2020-06-30T23:56:28+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.rozanskit.com/post/</loc>
+    <lastmod>2020-06-30T23:56:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.rozanskit.com/tags/</loc>
+    <lastmod>2020-06-30T23:56:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.rozanskit.com/post/python_introduction/</loc>
     <lastmod>2019-10-17T21:30:10+02:00</lastmod>
   </url>
   
@@ -34,22 +59,12 @@
   </url>
   
   <url>
-    <loc>https://www.rozanskit.com/tags/</loc>
-    <lastmod>2019-10-17T21:30:10+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.rozanskit.com/tags/tutorial/</loc>
     <lastmod>2019-10-17T21:30:10+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.rozanskit.com/tags/astronomy/</loc>
-    <lastmod>2019-05-22T01:45:10+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.rozanskit.com/categories/astronomy/</loc>
     <lastmod>2019-05-22T01:45:10+02:00</lastmod>
   </url>
   

@@ -2,30 +2,20 @@
 
 
 
-
-
-
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>
-    
-    Categories | Różański T.
-    
-  </title>
-  
-  <link rel="alternate" type="application/rss+xml" href="https://www.rozanskit.com/categories/index.xml" title="Różański T.">
-  
-  
-  <link rel="stylesheet" href="https://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=">
-  <link rel="stylesheet" href="https://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=">
-  
-  <meta name="generator" content="Hugo 0.68.3" />
-</head>
-<body>
-  <nav class="u-background">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="#stylesheet" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" exclude-result-prefixes="xsl">
+    <xsl:output method="html" doctype-system="about:legacy-compat" />
+    <xsl:template match="/rss">
+      <html lang="en-us">
+        <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>gwiazdy 3He RSS | Różański T.</title>
+          <link rel="stylesheet" href="https://www.rozanskit.com/css/base.min.f55a63ee320e717027573e9c79dc9ab233b0bd15f231f06d9a22af5a863bdade.css" integrity="sha256-9Vpj7jIOcXAnVz6cedyasjOwvRXyMfBtmiKvWoY72t4=" />
+        </head>
+        <body>
+          <nav class="u-background">
   <div class="u-wrapper">
     <ul class="Banner">
       <li class="Banner-item Banner-item--title">
@@ -55,35 +45,19 @@
     </ul>
   </div>
 </nav>
-  <main>
-    <div class="u-wrapper">
-      <div class="u-padding">
-        
-
-<header class="Heading">
-  <h2 class="Heading-title">
-    <a class="Heading-link u-clickable" href="https://www.rozanskit.com/categories/" rel="bookmark">Categories</a>
-  </h2>
-  
-</header>
-
-<ul class="Tags">
-  
-  <li class="Tags-item u-background">
-      <a class="Tags-link u-clickable" href="https://www.rozanskit.com/categories/astronomy/">Astronomy</a>
-    </li>
-    
-  <li class="Tags-item u-background">
-      <a class="Tags-link u-clickable" href="https://www.rozanskit.com/categories/python-crash-course/">Python crash course</a>
-    </li>
-    
-</ul>
-
-
-      </div>
-    </div>
-  </main>
-  
+          <main>
+            <div class="u-wrapper">
+              <div class="u-padding">
+                <h2 class="Heading-title">
+                  
+                  <a class="Heading-link u-clickable" href="https://www.rozanskit.com/tags/gwiazdy-3he/index.xml" rel="bookmark">gwiazdy 3He RSS</a>
+                  
+                </h2>
+                
+              </div>
+            </div>
+          </main>
+          
 <footer class="Footer">
   <div class="u-wrapper">
     <div class="u-padding">
@@ -121,6 +95,17 @@
 
 
 
-  
-</body>
-</html>
+        </body>
+      </html>
+    </xsl:template>
+  </xsl:stylesheet>
+  <channel>
+    <title>gwiazdy 3He on Różański T.</title>
+    <link>https://www.rozanskit.com/tags/gwiazdy-3he/</link>
+    <description>Recent content in gwiazdy 3He on Różański T.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Jun 2020 23:56:28 +0200</lastBuildDate>
+    <atom:link href="https://www.rozanskit.com/tags/gwiazdy-3he/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
