@@ -108,9 +108,9 @@
     <atom:link href="https://www.rozanskit.com/teaching/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Języki skryptowe - Python</title>
-      <link>https://www.rozanskit.com/teaching/jsp1920/</link>
+      <link>https://www.rozanskit.com/teaching/jsP1920/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.rozanskit.com/teaching/jsp1920/</guid>
+      <guid>https://www.rozanskit.com/teaching/jsP1920/</guid>
       <description>&lt;h3 id=&#34;zasady-zaliczenia&#34;&gt;Zasady zaliczenia&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -172,17 +172,17 @@ $$ W = \frac{1}{4}x_1 + \frac{1}{4}x_2 + \frac{1}{2}x_3 $$&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;materiały&#34;&gt;Materiały&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsp1920/introduction/&#34;&gt;Podstawowe informacje i instalacja Pythona&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsp1920/git/&#34;&gt;Wprowadzenie do systemu kontroli wersji - Git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/post/python_introduction/&#34;&gt;Podstawy języka Python w jednym notebooku (po angielsku)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsP1920/introduction/&#34;&gt;Podstawowe informacje i instalacja Pythona&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsP1920/git/&#34;&gt;Wprowadzenie do systemu kontroli wersji - Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/post/Python_introduction/&#34;&gt;Podstawy języka Python w jednym notebooku (po angielsku)&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;wyzwania-dla-bardziej-zaawansowanych-i-zainteresowanych&#34;&gt;Wyzwania dla bardziej zaawansowanych i zainteresowanych&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsp1920/bubble_sort/&#34;&gt;Sortowanie bąbelkowe&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsp1920/insertion_sort/&#34;&gt;Sortowanie przez wstawianie&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsp1920/rekursja/&#34;&gt;Rekurencja (rekursja)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsp1920/merge_sort/&#34;&gt;Sortowanie przez scalanie&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsp1920/quick_sort/&#34;&gt;Sortowanie szybkie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsP1920/bubble_sort/&#34;&gt;Sortowanie bąbelkowe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsP1920/insertion_sort/&#34;&gt;Sortowanie przez wstawianie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsP1920/rekursja/&#34;&gt;Rekurencja (rekursja)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsP1920/merge_sort/&#34;&gt;Sortowanie przez scalanie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rozanskit.com/teaching/jsP1920/quick_sort/&#34;&gt;Sortowanie szybkie&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
