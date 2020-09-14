@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Różański T.</title>
+    <link>https://www.rozanskit.com/pl/</link>
+      <atom:link href="https://www.rozanskit.com/pl/index.xml" rel="self" type="application/rss+xml" />
+    <description>Różański T.</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pl</language><lastBuildDate>Tue, 08 Sep 2020 19:11:19 +0200</lastBuildDate>
+    <image>
+      <url>https://www.rozanskit.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Różański T.</title>
+      <link>https://www.rozanskit.com/pl/</link>
+    </image>
+    
+    <item>
+      <title>Gwiazdy chemicznie osobliwe typu $^3$He</title>
+      <link>https://www.rozanskit.com/pl/post/gwiazdy_3He/</link>
+      <pubDate>Tue, 08 Sep 2020 19:11:19 +0200</pubDate>
+      <guid>https://www.rozanskit.com/pl/post/gwiazdy_3He/</guid>
+      <description>&lt;p&gt;Osobliowść gwiazd chemicznie osobliwych (ang. &lt;em&gt;chemically peculiar&lt;/em&gt;, CP) wiąże się z ich istotnie innym od słonecznego składem chemicznym i to nie przez zwykłe przeskalowanie, ale selektywnie względem różnych pierwiastków. Na przykład gwiazdy typu HgMn mają w swoich atmosferach aż do miliona razy więcej rtęci i tysiąca razy więcej manganu niż Słońce. Wśród pierwiastków, których obfitości mogą być bardzo różne od typowych są m.in. hel, krzem, stront, chrom, europ i wiele innych. Można się zastanawiać co jest źródłem wzbogacenia tych gwiazd w tak osobliwe pierwiastki chemiczne i okazuje się, że nie są to ani reakcje chemiczne, ani opadająca na gwiazdy materia z ich otoczenia, ale proces dyfuzji napędzany przez promieniowanie, które selektywnie oddziałuje z atomami różnych pierwiastków w ich atmosferach. I tak atomy, które w niewielkim stopniu oddziałują z promieniowaniem toną, podczas gdy pozostałe są wynoszone w górne warstwy atmosfer i tam się gromadzą.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Gwiazdy chemicznie osobliwe mają temperatury w zakresie od około 7000 K do 26000 K &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, przy czym dla porównania temperatura efektywna Słońca to 5777 K. Dolna granica temperatur związana jest z obecnością zewnętrznej warstwy konwekcyjnej w gwiazdach chłodniejszych, a górna, z obecnością silnego wiatru gwiazdowego w przypadku gwiazd gorących.&lt;/p&gt;
+&lt;p&gt;Warunkiem koniecznym powstania chemicznych osobliwości jest dodatkowo powolna rotacja danej gwiazdy, ponieważ w gwiazdach szybko rotujących, występują dodatkowe procesy mieszania, które nie pozwalają na rozwinięcie się osobliwości. Z tego powodu tylko, częśc gwiazd w podanym zakresie temperatur jest chemicznie osobliwa. Jaka część gwiazd jest chemicznie osobliwa można zobaczyć na poniższym rysunku.&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-częstość-występowania-gwiazd-cp-rysunek-pochodzi-z-publikacji-3&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.rozanskit.com/media/posts/3he_stars/how_often.png&#34; data-caption=&#34;Częstość występowania gwiazd CP. Rysunek pochodzi z publikacji [3].&#34;&gt;
+
+
+  &lt;img src=&#34;https://www.rozanskit.com/media/posts/3he_stars/how_often.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Częstość występowania gwiazd CP. Rysunek pochodzi z publikacji [3].
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Wśród gorących gwiazd chemicznie osobliwych wyróżniamy gwiazdy o osobliwych liniach helu - gwiazdy helowo słabe (ang. &lt;em&gt;He-weak&lt;/em&gt;, He-w) i helowo silne (ang. &lt;em&gt;He-strong&lt;/em&gt;, He-s). Pierwsze z nich mają temperatury w zakresie 13&#39;000-18&#39;000 K, drugie w przedziale 18&#39;000-26&#39;000 K.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; W gwiazdach typu He-s stosunek liczby atomów helu do wodoru jest w przedziale 0.3 do 10, w kolei w gwiazdach He-w 0.005-0.05 (w pierwotnej materii po Wielkim Wybuchu stosunek ten wynosił 0.08).&lt;/p&gt;
+&lt;p&gt;Na granicy pomiędzy tymi dwoma typami gwiazd znajduje się niewielka podgrupa gwiazd He-w, gwiazdy $^3$He. Są to gwiazdy w zakresie temperatur 16&#39;000-21&#39;000K, w których izotopu $^4$He jest od 5 do 20 razy mniej niż w zwykładych gwiazdach typu B, lecz o wysokim stosunku izotopów $^3$He/$^4$He od 0.47 do 2.7 w znanych obiektach.&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; Z powodu tak dużej obfitości lekkiego izotopu helu w widmie tych gwiazd linie tego pierwiastka posiadają wyraźnie dwie składowe (rysunek na początku posta, gdzie zobaczyć można linię neutralnego helu o długości fali 6678 Å w widmie gwiazdy HD 185330&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;). Znamy około 20 obiektów tego typu.&lt;/p&gt;
+&lt;p&gt;Bardzo podobne do gwiazd $^3$He omówionych powyżej są, palące hel w jądrze, gwiazdy typu $^3$He sdB. Ze zwględu na większe przyspieszenie grawitacyjne na ich powierzchni (10-100 razy większe niż w przypadku gwiazd ciągu głównego), w przypadku tych gwiazd anomalna obfitość helu-3 występuje w zakresie wyższych temperatur 26&#39;000-30&#39;000 K. Tutaj również źródłem wzbogacenia atmosfery z izotop $^3$He są procesy dyfuzji.&lt;/p&gt;
+&lt;p&gt;Warto zwrócić uwagę na jeszcze jeden aspekt wzbogacenia atmosfer tych gwiazd w $^3$He. Proces ten nie polega na intuicyjnym &amp;ldquo;utonięciu&amp;rdquo; $^4$He i pozostaniu lżejszego izotopu w atmosferze, ponieważ w atmosferach tych gwiazd obserwujemy obfitości $^3$He do 100 razy większe niż wynikałoby z takiego prostego wyjaśnienia tego zjawiska. W atmosferach tych gwiazd $^3$He jest aktywnie wzbogacany przez oddziaływanie procesu dyfuzji z wiatrem gwiazdowym i polem magnetycznym.&lt;/p&gt;
+&lt;p&gt;Jak widać w gwiazdach $^3$He istotne znaczenie ma bardzo wiele procesów fizycznych. Dlatego wiele zagadnień dotyczących tych obiektów nie zostało jeszcze dostatecznie zrozumianych, m.in. stratyfikacja pierwiastków w ich atmosferach&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;, zmienność linii widmowych&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; czy obecność słabych linii emisyjnych w widmach tych gwiazd&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;. Z całą pewnością te gwiazdy kryją przed nami jeszcze wiele niespodzianek!&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;Georges Michaud&lt;/span&gt;
+  &lt;/span&gt;
+  (1970).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/1970-michaud/&#34;&gt;Diffusion Processes in Peculiar A Stars&lt;/a&gt;.
+  &lt;em&gt;Astrophysical Journal&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/1970-michaud/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://doi.org/10.1086/150459&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;M. Netopil&lt;/span&gt;, &lt;span &gt;E. Paunzen&lt;/span&gt;, &lt;span &gt;H. M. Maitzen&lt;/span&gt;, &lt;span &gt;P. North&lt;/span&gt;, &lt;span &gt;S. Hubrig&lt;/span&gt;
+  &lt;/span&gt;
+  (2008).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/netopil-2008/&#34;&gt;Chemically peculiar stars and their temperature calibration&lt;/a&gt;.
+  &lt;em&gt;Astronomy &amp;amp; Astrophysics&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://dx.doi.org/10.1051/0004-6361:200810325&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/netopil-2008/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://doi.org/10.1051/0004-6361:200810325&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;Keith C Smith&lt;/span&gt;
+  &lt;/span&gt;
+  (1996).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/smith-1996-chemically/&#34;&gt;Chemically peculiar hot stars&lt;/a&gt;.
+  &lt;em&gt;Astrophysics and Space Science&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/smith-1996-chemically/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;M.R. Hartoog&lt;/span&gt;, &lt;span &gt;A.P. Cowley&lt;/span&gt;
+  &lt;/span&gt;
+  (1979).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/1979-hartoog/&#34;&gt;The helium-3 stars&lt;/a&gt;.
+  &lt;em&gt;Astrophysical Journal&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/1979-hartoog/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://doi.org/10.1086/156840&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;E. Niemczura&lt;/span&gt;, &lt;span &gt;S. Vennes&lt;/span&gt;, &lt;span &gt;T. Różański&lt;/span&gt;, &lt;span &gt;A. Pigulski&lt;/span&gt;, &lt;span &gt;K. Hełminiak&lt;/span&gt;, &lt;span &gt;H. Lehmann&lt;/span&gt;
+  &lt;/span&gt;
+  (2018).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/2018-niemczura/&#34;&gt;HD 185330 — chemically peculiar $^3$He star in the Kepler field&lt;/a&gt;.
+  &lt;em&gt;Contributions of the Astronomical Observatory Skalnate Pleso&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/2018-niemczura/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;D. Bohlender&lt;/span&gt;
+  &lt;/span&gt;
+  (2005).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/2005-bohlender/&#34;&gt;$^3$He and $^4$He Abundance Stratification in the $^3$He and Related Stars&lt;/a&gt;.
+  &lt;em&gt;EAS Publications Series&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/2005-bohlender/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://doi.org/10.1051/eas:2005102&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+ &lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;D.A. Bohlender&lt;/span&gt;, &lt;span &gt;J.B. Rice&lt;/span&gt;, &lt;span &gt;P. Hechler&lt;/span&gt;
+  &lt;/span&gt;
+  (2010).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/2010-bohlender/&#34;&gt;Doppler imaging of the helium-variable star a Centauri&lt;/a&gt;.
+  &lt;em&gt;Astronomy &amp;amp; Astrophysics&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/2010-bohlender/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://doi.org/10.1051/0004-6361/201014157&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;G.~M. Wahlgren&lt;/span&gt;, &lt;span &gt;S. Hubrig&lt;/span&gt;
+  &lt;/span&gt;
+  (2004).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/2004-wahlgren/&#34;&gt;Emission lines in the optical spectrum of 3 Cen A&lt;/a&gt;.
+  &lt;em&gt;A&amp;amp;A&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/2004-wahlgren/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://doi.org/10.1051/0004-6361:20034257&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HD 185330 — chemically peculiar $^3$He star in the Kepler field</title>
+      <link>https://www.rozanskit.com/pl/publication/2018-niemczura/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/2018-niemczura/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A non-LTE spectral analysis of the $^3$He and $^4$He isotopes in the HgMn star kappa Cancri</title>
+      <link>https://www.rozanskit.com/pl/publication/2014-maza/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/2014-maza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Doppler imaging of the helium-variable star a Centauri</title>
+      <link>https://www.rozanskit.com/pl/publication/2010-bohlender/</link>
+      <pubDate>Wed, 01 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/2010-bohlender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chemically peculiar stars and their temperature calibration</title>
+      <link>https://www.rozanskit.com/pl/publication/netopil-2008/</link>
+      <pubDate>Wed, 01 Oct 2008 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/netopil-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>$^3$He and $^4$He Abundance Stratification in the $^3$He and Related Stars</title>
+      <link>https://www.rozanskit.com/pl/publication/2005-bohlender/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/2005-bohlender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emission lines in the optical spectrum of 3 Cen A</title>
+      <link>https://www.rozanskit.com/pl/publication/2004-wahlgren/</link>
+      <pubDate>Sat, 01 May 2004 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/2004-wahlgren/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chemically peculiar hot stars</title>
+      <link>https://www.rozanskit.com/pl/publication/smith-1996-chemically/</link>
+      <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/smith-1996-chemically/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The helium-3 stars</title>
+      <link>https://www.rozanskit.com/pl/publication/1979-hartoog/</link>
+      <pubDate>Thu, 01 Feb 1979 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/1979-hartoog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diffusion Processes in Peculiar A Stars</title>
+      <link>https://www.rozanskit.com/pl/publication/1970-michaud/</link>
+      <pubDate>Fri, 01 May 1970 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/1970-michaud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Podstawowe informacje i instalacja Pythona</title>
+      <link>https://www.rozanskit.com/pl/teaching/jsp2019/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/teaching/jsp2019/introduction/</guid>
+      <description>&lt;h3 id=&#34;gdzie-poczytaćo-pythonie&#34;&gt;Gdzie poczytać o Pythonie?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.python.org/moin/BeginnersGuide/NonProgrammers&#34;&gt;https://wiki.python.org/moin/BeginnersGuide/NonProgrammers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://python.cs.southern.edu/pythonbook/pythonbook.pdf&#34;&gt;https://python.cs.southern.edu/pythonbook/pythonbook.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pl.wikibooks.org/wiki/Zanurkuj_w_Pythonie&#34;&gt;https://pl.wikibooks.org/wiki/Zanurkuj_w_Pythonie&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A w praktyce najczęsciej będzie to: &lt;a href=&#34;https://stackoverflow.com/questions/tagged/python-3.x&#34;&gt;https://stackoverflow.com/questions/tagged/python-3.x&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;instalacja&#34;&gt;Instalacja&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.anaconda.com/anaconda/install/&#34;&gt;https://docs.anaconda.com/anaconda/install/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/&#34;&gt;https://www.anaconda.com/distribution/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;czym-jest-jupyter-notebook&#34;&gt;Czym jest Jupyter Notebook?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://perseba.github.io/blog/jupyter-wprowadzenie.html&#34;&gt;http://perseba.github.io/blog/jupyter-wprowadzenie.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jupyter.readthedocs.io/en/latest/install.html&#34;&gt;https://jupyter.readthedocs.io/en/latest/install.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;czym-jest-conda&#34;&gt;Czym jest Conda?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.conda.io/en/latest/&#34;&gt;https://docs.conda.io/en/latest/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rekurencja (rekursja)</title>
+      <link>https://www.rozanskit.com/pl/teaching/jsp2019/rekursja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/teaching/jsp2019/rekursja/</guid>
+      <description>&lt;h3 id=&#34;co-to-jest-rekurencja&#34;&gt;Co to jest Rekurencja?&lt;/h3&gt;
+&lt;p&gt;Zacznijmy od 
+&lt;a href=&#34;https://www.google.com/search?q=recursion&amp;amp;oq=recursion&amp;amp;aqs=chrome.0.69i59j0l2j69i60l3.1383j0j7&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;żartu&lt;/a&gt;. Rekurencja (ang.&lt;em&gt;recursion&lt;/em&gt;) występuje, gdy definicja typu czy funkcji odwołuje się sama do siebie. Przykładem rekurencyjnej definicji funkcji może być definicja ciągu Fibonacciego:
+$$
+F_n =
+\begin{cases}
+1,&amp;amp; \text{if } x = 0\newline
+1,&amp;amp; \text{if } x = 1\newline
+F_{n-1} + F_{n-2},&amp;amp; \text{if } x \geq 2 \newline
+\end{cases}
+$$
+A przykładem rekurencyjnej definicji struktury danych (typu) może być definicja listy jednokierunkowej:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;struct node
+{
+  int data;           // some integer data
+  struct node *next;  // pointer to another struct node
+};
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Dzięki rekurencji łatwo można w prosty sposób zdefiniować niektóre zbiory fraktalne, np. trójkąt Sierpińskiego:
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-trójkąt-sierpińskiego&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.rozanskit.com/media/jsp2020/Sierpinski_triangle_evolution.png&#34; data-caption=&#34;Trójkąt Sierpińskiego&#34;&gt;
+
+
+  &lt;img src=&#34;https://www.rozanskit.com/media/jsp2020/Sierpinski_triangle_evolution.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Trójkąt Sierpińskiego
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;wieże-hanoi&#34;&gt;Wieże Hanoi&lt;/h3&gt;
+&lt;p&gt;Mamy trzy stosy. Na jednym w nich od najmniejszego do największego (patrząc z góry) ułożone jest $N$ krążków. Pozostałe 2 stosy są puste. Zadanie polega na przeniesieniu krążków na wybrany z dwóch pozostałych stosów tak żeby zachować kolejność. Zasady:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;jednocześnie przenosić można tylko jeden krążek,&lt;/li&gt;
+&lt;li&gt;większy krążek nigdy nie może leżeć na mniejszym.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Można zajrzeć 
+&lt;a href=&#34;http://www.javawithus.com/programs/towers-of-hanoi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tutaj&lt;/a&gt; po dokładniejszy opis.&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-wieże-hanoi&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.rozanskit.com/media/jsp2020/NwAPw.gif&#34; data-caption=&#34;Wieże Hanoi&#34;&gt;
+
+
+  &lt;img src=&#34;https://www.rozanskit.com/media/jsp2020/NwAPw.gif&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Wieże Hanoi
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;wyzwanie-1&#34;&gt;Wyzwanie 1.&lt;/h3&gt;
+&lt;p&gt;Spróbuj na kartce papieru rozwiązać zagadkę dla 3 krążków.&lt;/p&gt;
+&lt;h3 id=&#34;pseudokod-rozwiązania-rekurencyjnego&#34;&gt;Pseudokod rozwiązania rekurencyjnego&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;function move(n, source, target, buffer):
+    if n == 0:
+       return
+
+    # move n - 1 disks from source to helping tower, so they are out of the way
+    move(n - 1, source, buffer, target)
+
+    # move the nth disk from source to target
+    target.append(source.pop())
+
+    # move the n - 1 disks that we left on helping onto target
+    move(n - 1, buffer, target, source)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;co-należy-zrobić&#34;&gt;Co należy zrobić?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Zaimplementuj rekurencyjną funkcję wiezeHanoi(N:int), która rozwiąże problem i jednocześnie na konsoli wyświetli jakąś wizualizację wykonanych ruchów. (Podpowiedź: Krążki reprezentuj przez liczby naturalne a stosy przez listy.)&lt;/li&gt;
+&lt;li&gt;Czy potrafisz wyjaśnić dlaczego zaprezentowany algortym działa?&lt;/li&gt;
+&lt;li&gt;Jak zależy ilość przestawień od liczby krążków?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sortowanie bąbelkowe</title>
+      <link>https://www.rozanskit.com/pl/teaching/jsp2019/bubble_sort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/teaching/jsp2019/bubble_sort/</guid>
+      <description>&lt;h3 id=&#34;na-czym-polega-sortowanie-bąbelkowe&#34;&gt;Na czym polega sortowanie bąbelkowe?&lt;/h3&gt;
+&lt;p&gt;Wikipedia: &amp;ldquo;[Sortowanie bąbelkowe] Polega na porównywaniu dwóch kolejnych elementów i zamianie ich kolejności, jeżeli zaburza ona porządek, w jakim się sortuje tablicę. Sortowanie kończy się, gdy podczas kolejnego przejścia nie dokonano żadnej zmiany.&amp;rdquo;&lt;/p&gt;
+&lt;h3 id=&#34;wizualizacja&#34;&gt;Wizualizacja&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/nmhjrI-aW5o&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;pseudokod&#34;&gt;Pseudokod&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;procedure bubbleSort( A : lista elementów do posortowania )
+  n = liczba_elementów(A)
+   do
+    for (i = 0; i &amp;lt; n-1; i++) do:
+      if A[i] &amp;gt; A[i+1] then
+        swap(A[i], A[i+1])
+      end if
+    end for
+    n = n-1 # Dlaczego?
+  while n &amp;gt; 1
+end procedure
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;co-należy-zaimplementować&#34;&gt;Co należy zaimplementować?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Zaimplementuj funkcję bubble_sort(), która jako argument przyjmuje listę a zwraca listę posortowaną.&lt;/li&gt;
+&lt;li&gt;W funkcji main() wygeneruj losową listę liczb o długości N=1000.&lt;/li&gt;
+&lt;li&gt;Posortuj tę listę wykorzystując bubble_sort().&lt;/li&gt;
+&lt;li&gt;Sprawdź czy lista zwrócona przez funkcję jest posortowana.&lt;/li&gt;
+&lt;li&gt;Zmierz czas potrzebny na wykonanie sortowania N = {10, 100, 1000, 10000} liczb.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;pytania&#34;&gt;Pytania&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Jak rośnie czas wykonania algorymtu wraz ze wzrostem długości danych N (liniowo, kwadratowo, logarytmicznie, &amp;hellip;)?&lt;/li&gt;
+&lt;li&gt;Ile maksymalnie porównań może wykonać zaimplementowane sortowanie (w funkcji N)?&lt;/li&gt;
+&lt;li&gt;Czy masz jakieś pomysły na usprawnienie sortowania bąbelkowego?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sortowanie przez scalanie</title>
+      <link>https://www.rozanskit.com/pl/teaching/jsp2019/merge_sort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/teaching/jsp2019/merge_sort/</guid>
+      <description>&lt;h3 id=&#34;na-czym-polega-sortowanie-przez-scalanie&#34;&gt;Na czym polega sortowanie przez scalanie?&lt;/h3&gt;
+&lt;p&gt;Algorytm sortowania przez scalanie (ang. &lt;em&gt;merge sort&lt;/em&gt;) wykorzystuje metodę ,,dziel i zwyciężaj&amp;rsquo;&amp;rsquo; (ang. &lt;em&gt;divide-and-conquer&lt;/em&gt;). Algorytmy tego typu wywołują same siebie (jeden lub więcej razy), tzn. mają strukturę rekurencyjną. Metoda ,,dziel i zwyciężaj&amp;rsquo;&amp;rsquo; polega na podzieleniu problemu na mniejsze podproblemy, rozwiązaniu ich a następnie połączeniu rozwiązań podproblemów w celu uzyskania rozwiązania początkowego, pełnego problemu.&lt;/p&gt;
+&lt;p&gt;Ogólny opis algorytmu sortowania przez scalanie jest następujący:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Podziel $n$-elementowy ciąg na dwa podciągi po $n/2$ elementów każdy.&lt;/li&gt;
+&lt;li&gt;Posortuj otrzymane podciągi, używając rekurencyjnie sortowania przez scalanie.&lt;/li&gt;
+&lt;li&gt;Połącz posortowanie podciągi w jeden posortowany ciąg.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Rekursja kończy się gdy ciąg do posortowania ma długość równą 1 - ciąg o długości 1 zawsze jest posortowany.&lt;/p&gt;
+&lt;p&gt;Kluczowym elementem algorytmu jest procedura $\text{MERGE}(A,p,q,r)$, gdzie $A$ to tablica, a $p,~q,~r$ są indeksami ($p\le q\le r$). Procedura zakłada, że podciągi $A[p..q]$ i $A[q..r]$ są posortowane. Po jej wywołaniu tablica $A[p..r]$ jest posortowana. (&lt;em&gt;Opracowano na podstawie książki T. H. Cormen i in. ,,Wprowadzenie do algorytmów&amp;rsquo;&amp;rsquo;.&lt;/em&gt;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-sortowanie-przez-scalanie&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.rozanskit.com/media/jsp2020/Merge-sort-example-300px.gif&#34; data-caption=&#34;Sortowanie przez scalanie&#34;&gt;
+
+
+  &lt;img src=&#34;https://www.rozanskit.com/media/jsp2020/Merge-sort-example-300px.gif&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Sortowanie przez scalanie
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+(Grafika pochodzi z 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Merge_sort#/media/File:Merge-sort-example-300px.gif&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;artykułu w angielskojęzycznej Wikipedii&lt;/a&gt;)&lt;/p&gt;
+&lt;h3 id=&#34;wizualizacja&#34;&gt;Wizualizacja&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/XaqR3G_NVoo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;pseudokod&#34;&gt;Pseudokod&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;procedure mergeSort( A, p, r)
+  // posortuj tablicę A -&amp;gt; mergeSort(A, 0, length(A)-1)
+  if p &amp;lt; r
+    q = floor((p+r)/2)
+    mergeSort(A, p, q)
+    mergeSort(A, q+1, r)
+    merge(A, p, q, r)
+  endif
+
+procedure merge(A, p, q, r)
+  n1 = q - p + 1
+  n2 = r - q
+  L[0..n1] i R[0..n2] to puste tablice
+  for i = 0 to n1
+    L[i] = A[p+i]
+  for i = 0 to n2
+    R[j] = A[q+j+1]
+  L[n1] = infinity
+  L[n2] = infinity
+  i = 0
+  j = 0
+  for k = p to r
+    if L[i] &amp;lt;= R[j]
+      A[k] = L[i]
+      i++
+    else
+      A[k] = R[j]
+      j++
+    endif
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;co-należy-zaimplementować&#34;&gt;Co należy zaimplementować?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Zaimplementuj funkcję merge_sort(), która jako argument przyjmuje listę a zwraca listę posortowaną.&lt;/li&gt;
+&lt;li&gt;Porównaj czas sortowania list o długości 5, 10, 50, 100, 1000 elementów przy pomocy algorytmów mergeSort() i insertionSort().&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;pytania&#34;&gt;Pytania&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Jak rośnie czas wykonania algorymtu wraz ze wzrostem długości danych N (liniowo, kwadratowo, logarytmicznie, &amp;hellip;)?&lt;/li&gt;
+&lt;li&gt;Czy algorytm sortowania przez scalanie jest zawsze szybszy od algorytmu sortowania przez wstawianie?&lt;/li&gt;
+&lt;li&gt;Jak zbudować hybrydę algorytmów sortowania przez scalanie i sortowania przez wstawianie, która będzie szybsza od sortowania przez scalanie?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sortowanie przez wstawianie</title>
+      <link>https://www.rozanskit.com/pl/teaching/jsp2019/insertion_sort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/teaching/jsp2019/insertion_sort/</guid>
+      <description>&lt;h3 id=&#34;na-czym-polega-sortowanie-przez-wstawianie&#34;&gt;Na czym polega sortowanie przez wstawianie?&lt;/h3&gt;
+&lt;p&gt;Na podstawie książki T. H. Cormen i in. ,,Wprowadzenie do algorytmów&amp;rsquo;&#39;: Sortowanie przez wstawianie jest efektywnym algorytmem sortowania dla niewielkiej liczby elementów. Algorytm ten działa w taki sposób,  jaki ludzie często porządkują rozdane karty. Zaczynamy od ,,pustej&amp;rsquo;&amp;rsquo; lewej ręki i kupki kart zakrytych na stole. Następnie bierzemy ze stołu kolejno po jednej karcie i wstawiamy ją we właściwe miejsce wśród kart trzymanych w lewej ręce. Aby znaleźć włąściwe miejsce dla danej karty, porównujemy ją z kartami, które już mamy w ręce, przeglądając je od strony prawej do lewej. Przez cały czas karty trzymane w lewej ręce są posortowane, a kart na stole znajdują się w losowej kolejności.&lt;/p&gt;
+&lt;h3 id=&#34;wizualizacja&#34;&gt;Wizualizacja&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/OGzPmgsI-pQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;pseudokod&#34;&gt;Pseudokod&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;procedure insertionSort( A : lista elementów do posortowania )
+  n = liczba_elementów(A)
+  for (i = 1; i &amp;lt; n; i++) do
+    key = A[i]
+    //Wstaw A[j] w posortowany ciąg A[0:i]
+    j = i - 1
+    while (j &amp;gt;= 0) and (A[j] &amp;gt; key)
+      A[j+1] = A[j]
+      j -= 1
+    A[i+1] = key
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;co-należy-zaimplementować&#34;&gt;Co należy zaimplementować?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Zaimplementuj funkcję insert_sort(), która jako argument przyjmuje listę a zwraca listę posortowaną.&lt;/li&gt;
+&lt;li&gt;W funkcji main() wygeneruj losową listę liczb o długości N=1000.&lt;/li&gt;
+&lt;li&gt;Posortuj tę listę wykorzystując insert_sort().&lt;/li&gt;
+&lt;li&gt;Sprawdź czy lista zwrócona przez funkcję jest posortowana.&lt;/li&gt;
+&lt;li&gt;Zmierz czas potrzebny na wykonanie sortowania N = {10, 100, 1000, 10000} liczb.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;pytania&#34;&gt;Pytania&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Jak rośnie czas wykonania algorymtu wraz ze wzrostem długości danych N (liniowo, kwadratowo, logarytmicznie, &amp;hellip;)?&lt;/li&gt;
+&lt;li&gt;Czy masz jakieś pomysły na usprawnienie sortowania przez wstawianie (zmniejszenie liczby porównań, zmiejszenie liczy przestawień)?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sortowanie szybkie</title>
+      <link>https://www.rozanskit.com/pl/teaching/jsp2019/quick_sort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/teaching/jsp2019/quick_sort/</guid>
+      <description>&lt;h3 id=&#34;na-czym-polega-sortowanie-szybkie&#34;&gt;Na czym polega sortowanie szybkie?&lt;/h3&gt;
+&lt;p&gt;Algorytm sortowania szybkiego (ang. &lt;em&gt;quick sort&lt;/em&gt;), podobnie jak sortowanie przez scalanie, wykorzystuje metodę ,,dziel i zwyciężaj&amp;rsquo;&amp;rsquo; (ang. &lt;em&gt;divide-and-conquer&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Ogólny opis algorytmu quicksort jest następujący:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wybierz element tablicy zwany z angielskiego &lt;em&gt;pivot&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Podziel tablicę na dwie części - zawierającym elementy większe i elementy mniejsze od pivota. Po tym kroku tablica sortowana powinna wyglądać następująco: [elementy&amp;lt;pivot, pivot, elementy&amp;gt;pivot].&lt;/li&gt;
+&lt;li&gt;Zastosuj tę strategię rekurencyjnie dla obydwu części.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Rekursja kończy się gdy ciąg do posortowania ma długość równą 1 - ciąg o długości 1 zawsze jest posortowany.&lt;/p&gt;
+&lt;p&gt;Kluczowym elementem algorytmu jest procedura partycjonowania (ang. &lt;em&gt;partitioning&lt;/em&gt;). Istnieje kilka różnych strategii wykonywania podziału. Drugin ważnym elementem sortowania szybkiego jest metoda wyboru pivota. Typowo wykorzystuje się element ostatni, ale schemat jego wyboru jest dowolny. Optymalny pivot to taki który dzieli nam tablicę na dwie równe części.&lt;/p&gt;
+&lt;hr&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-sortowanie-szybkie&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.rozanskit.com/media/jsp2020/Sorting_quicksort_anim.gif&#34; data-caption=&#34;Sortowanie szybkie&#34;&gt;
+
+
+  &lt;img src=&#34;https://www.rozanskit.com/media/jsp2020/Sorting_quicksort_anim.gif&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Sortowanie szybkie
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;(Grafika pochodzi z 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Quicksort#/media/File:Sorting_quicksort_anim.gif&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;artykułu w angielskojęzycznej Wikipedii&lt;/a&gt;)&lt;/p&gt;
+&lt;h3 id=&#34;wizualizacja&#34;&gt;Wizualizacja&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/PgBzjlCcFvc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;pseudokod&#34;&gt;Pseudokod&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;algorithm quick_sort(A, lo, hi) is
+    if lo &amp;lt; hi then
+        p := partition(A, lo, hi)
+        quicksort(A, lo, p)
+        quicksort(A, p + 1, hi)
+
+algorithm partition(A, lo, hi) is
+    &amp;quot;&amp;quot;&amp;quot;
+    Hoare partitioning method (1959)
+    &amp;quot;&amp;quot;&amp;quot;
+    pivot := A[lo + (hi - lo) / 2]
+    i := lo - 1
+    j := hi + 1
+    loop forever
+        do
+            i := i + 1
+        while A[i] &amp;lt; pivot
+        do
+            j := j - 1
+        while A[j] &amp;gt; pivot
+        if i &amp;gt;= j then
+            return j
+        swap A[i] with A[j]
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Aby posortować tablicę A należy wywołać zaimplementowaną funckję następująco: quick_sort(A, 0, len(A)-1).&lt;/p&gt;
+&lt;h3 id=&#34;co-należy-zaimplementować&#34;&gt;Co należy zaimplementować?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Zaimplementuj funkcję quick_sort(), która jako argument przyjmuje listę a zwraca listę posortowaną.&lt;/li&gt;
+&lt;li&gt;Porównaj czas sortowania list o długości 5, 10, 50, 100, 1000 elementów przy pomocy algorytmów quick_sort() i merge_sort().&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;pytania&#34;&gt;Pytania&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Jak rośnie czas wykonania algorymtu wraz ze wzrostem długości danych N (liniowo, kwadratowo, logarytmicznie, &amp;hellip;)?&lt;/li&gt;
+&lt;li&gt;Jaka jest największa słabość algorytmu sortowania szybkiego?&lt;/li&gt;
+&lt;li&gt;Jakie znasz metody wyboru pivota? Która jest najlepsza?&lt;/li&gt;
+&lt;li&gt;Czym jest zrandomizowany quicksort?&lt;/li&gt;
+&lt;li&gt;Czy algorytm sortowania szybkiego jest zawsze szybszy od algorytmu sortowania przez scalanie? Dlaczego?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wprowadzenie do systemu kontroli wersji - Git</title>
+      <link>https://www.rozanskit.com/pl/teaching/jsp2019/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/teaching/jsp2019/git/</guid>
+      <description>&lt;h3 id=&#34;literatura&#34;&gt;Literatura&lt;/h3&gt;
+&lt;p&gt;Wszystkie informacje zamieszczone poniżej, pochodzą z doskonałego wprowadzenia do systemu kontroli wersji Git, które można znaleźć w książce: 
+&lt;a href=&#34;https://git-scm.com/book/pl/v2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pro Git (S. Chacon, B. Straub)&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;co-to-jest-system-kontroli-wersji-i-dlaczego-go-potrzebujemy&#34;&gt;Co to jest system kontroli wersji i dlaczego go potrzebujemy?&lt;/h3&gt;
+&lt;p&gt;Systemy kontroli wersji służą śledzeniu i zapamiętywaniu wszystkich zmian wprowadzanych w projekcie nad, którym pracujemy. Zmiany mogą dotyczyć zmian w kodzie źródłowym programu, ale nie tylko - mogą to być zmiany dowolnych plików (lub w plikach). Dzięki historii zmian możemy w dowolnym momencie przywrócić wcześniejszy stan projektu, czy sprawdzić kto jest autorem danego fragmentu kodu.&lt;/p&gt;
+&lt;p&gt;Prawdziwa wartość systemów kontroli wersji jest widoczna w pracy grupowej, kiedy wielu programistów jednocześnie pracuje nad przydzielonymi im funkcjonalnościami oprogramowania. Wtedy uporządkowana praca pozwala na łatwe rozszerzanie możliwości programu i rozwiązywanie konfliktów, czyli problemów które mogą wystąpić podczas scalania zmian wykonanych przez dwóch programistów w tym samym pliku.&lt;/p&gt;
+&lt;h3 id=&#34;quick-start&#34;&gt;Quick start&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Utwórz katalog, który będzie twoim katalogiem projektu.&lt;/li&gt;
+&lt;li&gt;Wejdź do nowo utworzonego katalogu i zainicjalizuj w nim&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;git init
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Zagadnienia egzaminacyjne 2017/18</title>
+      <link>https://www.rozanskit.com/pl/teaching/tag2019/wymagania_2017_2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/teaching/tag2019/wymagania_2017_2018/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Opis makroskopowy pola promieniowania (natężenie, średnie natężenie, strumień promieniowania, gęstość pola promieniowania, ciśnienie promieniowania, opis fotonowy).&lt;/li&gt;
+&lt;li&gt;Związek pomiędzy natężeniem promieniowania i strumieniem obserwowanym.&lt;/li&gt;
+&lt;li&gt;Równanie przepływu promieniowania. Przybliżenie płasko-równoległe. Symetria sferyczna.&lt;/li&gt;
+&lt;li&gt;Rozwiązanie formalne równania przepływu promieniowania.&lt;/li&gt;
+&lt;li&gt;Równowaga termodynamiczna i koncepcja LTE
+(prawo Kirchoffa, ciało doskonale czarne, prawo Stefana-Boltzmanna).&lt;/li&gt;
+&lt;li&gt;Przybliżenie dyfuzyjne równania przepływu promieniowania
+(własności promieniowania na dużych głębokościach).&lt;/li&gt;
+&lt;li&gt;Empiryczny model Słońca, rola pociemnienia brzegowego.&lt;/li&gt;
+&lt;li&gt;Równania opisujące strukturę atmosfery gwiazdowej.&lt;/li&gt;
+&lt;li&gt;Atmosfera szara w równowadze promienistej. Atmosfery pasko-równoległe (przybliżenie Eddingtona). Atmosfery rozciągłe.&lt;/li&gt;
+&lt;li&gt;Metoda iteracyjna Unsölda rozwiązania równania przepływu promieniowania.&lt;/li&gt;
+&lt;li&gt;Średnia Rosselanda współczynnika absorpcji. Podać też definicje innych średnich współczynników absorpcji.&lt;/li&gt;
+&lt;li&gt;Równania Boltzmanna, Saha, Maxwella.&lt;/li&gt;
+&lt;li&gt;Równanie stanu.&lt;/li&gt;
+&lt;li&gt;Model atmosfery Słońca z empirycznym rozkładem temperatury.&lt;/li&gt;
+&lt;li&gt;Jak rozpraszanie promieniowania modyfikuje równania opisujące
+atmosferę.&lt;/li&gt;
+&lt;li&gt;Model atmosfery z czystym rozpraszaniem.&lt;/li&gt;
+&lt;li&gt;Ciśnienie promieniowania (opis dynamiczny, modyfikacja równania równowagi hydrostatycznej).&lt;/li&gt;
+&lt;li&gt;Modelowanie atmosfer gwiazdowych.&lt;/li&gt;
+&lt;li&gt;Kryterium Schwarzchilda dla konwekcji.&lt;/li&gt;
+&lt;li&gt;Omówić czynniki sprzyjające konwekcji (jonizacja, ciśnienie promieniowania).&lt;/li&gt;
+&lt;li&gt;Efektywność transportu energii przez konwekcję (teoria drogi mieszania, strumień konwektywny, siła wyporu).&lt;/li&gt;
+&lt;li&gt;Modelowanie atmosfer konwektywnych.&lt;/li&gt;
+&lt;li&gt;Współczynniki Einsteina i relacje między nimi.&lt;/li&gt;
+&lt;li&gt;Równanie przepływu promieniowania dla procesów związany-związany.&lt;/li&gt;
+&lt;li&gt;Modele atomów - kulombowskie oddziaływanie między jądrem a elektronem (opis stanów stacjonarnych, główna liczba kwantowa, degeneracja).&lt;/li&gt;
+&lt;li&gt;Modele atomów - centralne oddziaływanie elektrostatyczne w atomie
+wieloelektronowym (konfiguracja elektronowa).&lt;/li&gt;
+&lt;li&gt;Modele atomów - resztkowe (niecentralne) oddziaływanie elektronów (całki ruchu L i S, termy).&lt;/li&gt;
+&lt;li&gt;Model atomów - reguły wyboru (stan podstawowy, metastabilny, przejścia dozwolone).&lt;/li&gt;
+&lt;li&gt;Prawdopodobieństwa przejść związany-związany
+(Równanie Schrodingera dla wodoru, funkcje falowe, siła oscylatora).&lt;/li&gt;
+&lt;li&gt;Równanie przepływu promieniowania dla przejść związany-wolny.&lt;/li&gt;
+&lt;li&gt;Najważniejsze absorbery w widmie ciągłym (H I, He I, He II, H$^-$, H$_2^+$, metale).&lt;/li&gt;
+&lt;li&gt;Formy energii molekuł.&lt;/li&gt;
+&lt;li&gt;Widma rotacyjne, oscylacyjne i elektronowe molekuł.&lt;/li&gt;
+&lt;li&gt;Rozpraszanie Thomsona i Rayleigh’a.&lt;/li&gt;
+&lt;li&gt;Poszerzenie naturalne współczynnika absorpcji dla linii
+(gasnący oscylator harmoniczny - profil Lorentza, mechanika kwantowa).&lt;/li&gt;
+&lt;li&gt;Poszerzenie dopplerowskie współczynnika absorpcji dla linii
+(profil Gaussa, mikroturbulencja, makroturbulencja).&lt;/li&gt;
+&lt;li&gt;Poszerzenie zderzeniowe linii - teoria zderzeniowa
+(przejście z przebiegu czasowego na dziedzinę częstotliwości, statystyka
+zderzeń, n=3,4,6).&lt;/li&gt;
+&lt;li&gt;Poszerzenie zderzeniowe linii - teoria statystyczna
+(przybliżenie najbliszego sąsiada).&lt;/li&gt;
+&lt;li&gt;Efekt Starka dla linii wodorowych.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

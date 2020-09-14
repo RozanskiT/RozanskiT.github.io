@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Różański T.</title>
+    <link>https://www.rozanskit.com/pl/post/</link>
+      <atom:link href="https://www.rozanskit.com/pl/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pl</language><lastBuildDate>Tue, 08 Sep 2020 19:11:19 +0200</lastBuildDate>
+    <image>
+      <url>https://www.rozanskit.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>https://www.rozanskit.com/pl/post/</link>
+    </image>
+    
+    <item>
+      <title>Gwiazdy chemicznie osobliwe typu $^3$He</title>
+      <link>https://www.rozanskit.com/pl/post/gwiazdy_3He/</link>
+      <pubDate>Tue, 08 Sep 2020 19:11:19 +0200</pubDate>
+      <guid>https://www.rozanskit.com/pl/post/gwiazdy_3He/</guid>
+      <description>&lt;p&gt;Osobliowść gwiazd chemicznie osobliwych (ang. &lt;em&gt;chemically peculiar&lt;/em&gt;, CP) wiąże się z ich istotnie innym od słonecznego składem chemicznym i to nie przez zwykłe przeskalowanie, ale selektywnie względem różnych pierwiastków. Na przykład gwiazdy typu HgMn mają w swoich atmosferach aż do miliona razy więcej rtęci i tysiąca razy więcej manganu niż Słońce. Wśród pierwiastków, których obfitości mogą być bardzo różne od typowych są m.in. hel, krzem, stront, chrom, europ i wiele innych. Można się zastanawiać co jest źródłem wzbogacenia tych gwiazd w tak osobliwe pierwiastki chemiczne i okazuje się, że nie są to ani reakcje chemiczne, ani opadająca na gwiazdy materia z ich otoczenia, ale proces dyfuzji napędzany przez promieniowanie, które selektywnie oddziałuje z atomami różnych pierwiastków w ich atmosferach. I tak atomy, które w niewielkim stopniu oddziałują z promieniowaniem toną, podczas gdy pozostałe są wynoszone w górne warstwy atmosfer i tam się gromadzą.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Gwiazdy chemicznie osobliwe mają temperatury w zakresie od około 7000 K do 26000 K &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, przy czym dla porównania temperatura efektywna Słońca to 5777 K. Dolna granica temperatur związana jest z obecnością zewnętrznej warstwy konwekcyjnej w gwiazdach chłodniejszych, a górna, z obecnością silnego wiatru gwiazdowego w przypadku gwiazd gorących.&lt;/p&gt;
+&lt;p&gt;Warunkiem koniecznym powstania chemicznych osobliwości jest dodatkowo powolna rotacja danej gwiazdy, ponieważ w gwiazdach szybko rotujących, występują dodatkowe procesy mieszania, które nie pozwalają na rozwinięcie się osobliwości. Z tego powodu tylko, częśc gwiazd w podanym zakresie temperatur jest chemicznie osobliwa. Jaka część gwiazd jest chemicznie osobliwa można zobaczyć na poniższym rysunku.&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-częstość-występowania-gwiazd-cp-rysunek-pochodzi-z-publikacji-3&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://www.rozanskit.com/media/posts/3he_stars/how_often.png&#34; data-caption=&#34;Częstość występowania gwiazd CP. Rysunek pochodzi z publikacji [3].&#34;&gt;
+
+
+  &lt;img src=&#34;https://www.rozanskit.com/media/posts/3he_stars/how_often.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Częstość występowania gwiazd CP. Rysunek pochodzi z publikacji [3].
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Wśród gorących gwiazd chemicznie osobliwych wyróżniamy gwiazdy o osobliwych liniach helu - gwiazdy helowo słabe (ang. &lt;em&gt;He-weak&lt;/em&gt;, He-w) i helowo silne (ang. &lt;em&gt;He-strong&lt;/em&gt;, He-s). Pierwsze z nich mają temperatury w zakresie 13&#39;000-18&#39;000 K, drugie w przedziale 18&#39;000-26&#39;000 K.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; W gwiazdach typu He-s stosunek liczby atomów helu do wodoru jest w przedziale 0.3 do 10, w kolei w gwiazdach He-w 0.005-0.05 (w pierwotnej materii po Wielkim Wybuchu stosunek ten wynosił 0.08).&lt;/p&gt;
+&lt;p&gt;Na granicy pomiędzy tymi dwoma typami gwiazd znajduje się niewielka podgrupa gwiazd He-w, gwiazdy $^3$He. Są to gwiazdy w zakresie temperatur 16&#39;000-21&#39;000K, w których izotopu $^4$He jest od 5 do 20 razy mniej niż w zwykładych gwiazdach typu B, lecz o wysokim stosunku izotopów $^3$He/$^4$He od 0.47 do 2.7 w znanych obiektach.&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; Z powodu tak dużej obfitości lekkiego izotopu helu w widmie tych gwiazd linie tego pierwiastka posiadają wyraźnie dwie składowe (rysunek na początku posta, gdzie zobaczyć można linię neutralnego helu o długości fali 6678 Å w widmie gwiazdy HD 185330&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;). Znamy około 20 obiektów tego typu.&lt;/p&gt;
+&lt;p&gt;Bardzo podobne do gwiazd $^3$He omówionych powyżej są, palące hel w jądrze, gwiazdy typu $^3$He sdB. Ze zwględu na większe przyspieszenie grawitacyjne na ich powierzchni (10-100 razy większe niż w przypadku gwiazd ciągu głównego), w przypadku tych gwiazd anomalna obfitość helu-3 występuje w zakresie wyższych temperatur 26&#39;000-30&#39;000 K. Tutaj również źródłem wzbogacenia atmosfery z izotop $^3$He są procesy dyfuzji.&lt;/p&gt;
+&lt;p&gt;Warto zwrócić uwagę na jeszcze jeden aspekt wzbogacenia atmosfer tych gwiazd w $^3$He. Proces ten nie polega na intuicyjnym &amp;ldquo;utonięciu&amp;rdquo; $^4$He i pozostaniu lżejszego izotopu w atmosferze, ponieważ w atmosferach tych gwiazd obserwujemy obfitości $^3$He do 100 razy większe niż wynikałoby z takiego prostego wyjaśnienia tego zjawiska. W atmosferach tych gwiazd $^3$He jest aktywnie wzbogacany przez oddziaływanie procesu dyfuzji z wiatrem gwiazdowym i polem magnetycznym.&lt;/p&gt;
+&lt;p&gt;Jak widać w gwiazdach $^3$He istotne znaczenie ma bardzo wiele procesów fizycznych. Dlatego wiele zagadnień dotyczących tych obiektów nie zostało jeszcze dostatecznie zrozumianych, m.in. stratyfikacja pierwiastków w ich atmosferach&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;, zmienność linii widmowych&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; czy obecność słabych linii emisyjnych w widmach tych gwiazd&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;. Z całą pewnością te gwiazdy kryją przed nami jeszcze wiele niespodzianek!&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;Georges Michaud&lt;/span&gt;
+  &lt;/span&gt;
+  (1970).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/1970-michaud/&#34;&gt;Diffusion Processes in Peculiar A Stars&lt;/a&gt;.
+  &lt;em&gt;Astrophysical Journal&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/1970-michaud/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://doi.org/10.1086/150459&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;M. Netopil&lt;/span&gt;, &lt;span &gt;E. Paunzen&lt;/span&gt;, &lt;span &gt;H. M. Maitzen&lt;/span&gt;, &lt;span &gt;P. North&lt;/span&gt;, &lt;span &gt;S. Hubrig&lt;/span&gt;
+  &lt;/span&gt;
+  (2008).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/netopil-2008/&#34;&gt;Chemically peculiar stars and their temperature calibration&lt;/a&gt;.
+  &lt;em&gt;Astronomy &amp;amp; Astrophysics&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;http://dx.doi.org/10.1051/0004-6361:200810325&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  PDF
+&lt;/a&gt;
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/netopil-2008/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://doi.org/10.1051/0004-6361:200810325&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;Keith C Smith&lt;/span&gt;
+  &lt;/span&gt;
+  (1996).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/smith-1996-chemically/&#34;&gt;Chemically peculiar hot stars&lt;/a&gt;.
+  &lt;em&gt;Astrophysics and Space Science&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/smith-1996-chemically/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;M.R. Hartoog&lt;/span&gt;, &lt;span &gt;A.P. Cowley&lt;/span&gt;
+  &lt;/span&gt;
+  (1979).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/1979-hartoog/&#34;&gt;The helium-3 stars&lt;/a&gt;.
+  &lt;em&gt;Astrophysical Journal&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/1979-hartoog/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://doi.org/10.1086/156840&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;E. Niemczura&lt;/span&gt;, &lt;span &gt;S. Vennes&lt;/span&gt;, &lt;span &gt;T. Różański&lt;/span&gt;, &lt;span &gt;A. Pigulski&lt;/span&gt;, &lt;span &gt;K. Hełminiak&lt;/span&gt;, &lt;span &gt;H. Lehmann&lt;/span&gt;
+  &lt;/span&gt;
+  (2018).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/2018-niemczura/&#34;&gt;HD 185330 — chemically peculiar $^3$He star in the Kepler field&lt;/a&gt;.
+  &lt;em&gt;Contributions of the Astronomical Observatory Skalnate Pleso&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/2018-niemczura/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;D. Bohlender&lt;/span&gt;
+  &lt;/span&gt;
+  (2005).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/2005-bohlender/&#34;&gt;$^3$He and $^4$He Abundance Stratification in the $^3$He and Related Stars&lt;/a&gt;.
+  &lt;em&gt;EAS Publications Series&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/2005-bohlender/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://doi.org/10.1051/eas:2005102&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+ &lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;D.A. Bohlender&lt;/span&gt;, &lt;span &gt;J.B. Rice&lt;/span&gt;, &lt;span &gt;P. Hechler&lt;/span&gt;
+  &lt;/span&gt;
+  (2010).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/2010-bohlender/&#34;&gt;Doppler imaging of the helium-variable star a Centauri&lt;/a&gt;.
+  &lt;em&gt;Astronomy &amp;amp; Astrophysics&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/2010-bohlender/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://doi.org/10.1051/0004-6361/201014157&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;G.~M. Wahlgren&lt;/span&gt;, &lt;span &gt;S. Hubrig&lt;/span&gt;
+  &lt;/span&gt;
+  (2004).
+  &lt;a href=&#34;https://www.rozanskit.com/pl/publication/2004-wahlgren/&#34;&gt;Emission lines in the optical spectrum of 3 Cen A&lt;/a&gt;.
+  &lt;em&gt;A&amp;amp;A&lt;/em&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;button type=&#34;button&#34; class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal&#34;
+        data-filename=&#34;/pl/publication/2004-wahlgren/cite.bib&#34;&gt;
+  Cytowanie
+&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://doi.org/10.1051/0004-6361:20034257&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  DOI
+&lt;/a&gt;
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+ &lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

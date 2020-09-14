@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teoria atmosfer gwiazdowych - ćwiczenia | Różański T.</title>
+    <link>https://www.rozanskit.com/pl/teaching/tag2019/</link>
+      <atom:link href="https://www.rozanskit.com/pl/teaching/tag2019/index.xml" rel="self" type="application/rss+xml" />
+    <description>Teoria atmosfer gwiazdowych - ćwiczenia</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pl</language>
+    <image>
+      <url>https://www.rozanskit.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Teoria atmosfer gwiazdowych - ćwiczenia</title>
+      <link>https://www.rozanskit.com/pl/teaching/tag2019/</link>
+    </image>
+    
+    <item>
+      <title>Zagadnienia egzaminacyjne 2017/18</title>
+      <link>https://www.rozanskit.com/pl/teaching/tag2019/wymagania_2017_2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/teaching/tag2019/wymagania_2017_2018/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Opis makroskopowy pola promieniowania (natężenie, średnie natężenie, strumień promieniowania, gęstość pola promieniowania, ciśnienie promieniowania, opis fotonowy).&lt;/li&gt;
+&lt;li&gt;Związek pomiędzy natężeniem promieniowania i strumieniem obserwowanym.&lt;/li&gt;
+&lt;li&gt;Równanie przepływu promieniowania. Przybliżenie płasko-równoległe. Symetria sferyczna.&lt;/li&gt;
+&lt;li&gt;Rozwiązanie formalne równania przepływu promieniowania.&lt;/li&gt;
+&lt;li&gt;Równowaga termodynamiczna i koncepcja LTE
+(prawo Kirchoffa, ciało doskonale czarne, prawo Stefana-Boltzmanna).&lt;/li&gt;
+&lt;li&gt;Przybliżenie dyfuzyjne równania przepływu promieniowania
+(własności promieniowania na dużych głębokościach).&lt;/li&gt;
+&lt;li&gt;Empiryczny model Słońca, rola pociemnienia brzegowego.&lt;/li&gt;
+&lt;li&gt;Równania opisujące strukturę atmosfery gwiazdowej.&lt;/li&gt;
+&lt;li&gt;Atmosfera szara w równowadze promienistej. Atmosfery pasko-równoległe (przybliżenie Eddingtona). Atmosfery rozciągłe.&lt;/li&gt;
+&lt;li&gt;Metoda iteracyjna Unsölda rozwiązania równania przepływu promieniowania.&lt;/li&gt;
+&lt;li&gt;Średnia Rosselanda współczynnika absorpcji. Podać też definicje innych średnich współczynników absorpcji.&lt;/li&gt;
+&lt;li&gt;Równania Boltzmanna, Saha, Maxwella.&lt;/li&gt;
+&lt;li&gt;Równanie stanu.&lt;/li&gt;
+&lt;li&gt;Model atmosfery Słońca z empirycznym rozkładem temperatury.&lt;/li&gt;
+&lt;li&gt;Jak rozpraszanie promieniowania modyfikuje równania opisujące
+atmosferę.&lt;/li&gt;
+&lt;li&gt;Model atmosfery z czystym rozpraszaniem.&lt;/li&gt;
+&lt;li&gt;Ciśnienie promieniowania (opis dynamiczny, modyfikacja równania równowagi hydrostatycznej).&lt;/li&gt;
+&lt;li&gt;Modelowanie atmosfer gwiazdowych.&lt;/li&gt;
+&lt;li&gt;Kryterium Schwarzchilda dla konwekcji.&lt;/li&gt;
+&lt;li&gt;Omówić czynniki sprzyjające konwekcji (jonizacja, ciśnienie promieniowania).&lt;/li&gt;
+&lt;li&gt;Efektywność transportu energii przez konwekcję (teoria drogi mieszania, strumień konwektywny, siła wyporu).&lt;/li&gt;
+&lt;li&gt;Modelowanie atmosfer konwektywnych.&lt;/li&gt;
+&lt;li&gt;Współczynniki Einsteina i relacje między nimi.&lt;/li&gt;
+&lt;li&gt;Równanie przepływu promieniowania dla procesów związany-związany.&lt;/li&gt;
+&lt;li&gt;Modele atomów - kulombowskie oddziaływanie między jądrem a elektronem (opis stanów stacjonarnych, główna liczba kwantowa, degeneracja).&lt;/li&gt;
+&lt;li&gt;Modele atomów - centralne oddziaływanie elektrostatyczne w atomie
+wieloelektronowym (konfiguracja elektronowa).&lt;/li&gt;
+&lt;li&gt;Modele atomów - resztkowe (niecentralne) oddziaływanie elektronów (całki ruchu L i S, termy).&lt;/li&gt;
+&lt;li&gt;Model atomów - reguły wyboru (stan podstawowy, metastabilny, przejścia dozwolone).&lt;/li&gt;
+&lt;li&gt;Prawdopodobieństwa przejść związany-związany
+(Równanie Schrodingera dla wodoru, funkcje falowe, siła oscylatora).&lt;/li&gt;
+&lt;li&gt;Równanie przepływu promieniowania dla przejść związany-wolny.&lt;/li&gt;
+&lt;li&gt;Najważniejsze absorbery w widmie ciągłym (H I, He I, He II, H$^-$, H$_2^+$, metale).&lt;/li&gt;
+&lt;li&gt;Formy energii molekuł.&lt;/li&gt;
+&lt;li&gt;Widma rotacyjne, oscylacyjne i elektronowe molekuł.&lt;/li&gt;
+&lt;li&gt;Rozpraszanie Thomsona i Rayleigh’a.&lt;/li&gt;
+&lt;li&gt;Poszerzenie naturalne współczynnika absorpcji dla linii
+(gasnący oscylator harmoniczny - profil Lorentza, mechanika kwantowa).&lt;/li&gt;
+&lt;li&gt;Poszerzenie dopplerowskie współczynnika absorpcji dla linii
+(profil Gaussa, mikroturbulencja, makroturbulencja).&lt;/li&gt;
+&lt;li&gt;Poszerzenie zderzeniowe linii - teoria zderzeniowa
+(przejście z przebiegu czasowego na dziedzinę częstotliwości, statystyka
+zderzeń, n=3,4,6).&lt;/li&gt;
+&lt;li&gt;Poszerzenie zderzeniowe linii - teoria statystyczna
+(przybliżenie najbliszego sąsiada).&lt;/li&gt;
+&lt;li&gt;Efekt Starka dla linii wodorowych.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
