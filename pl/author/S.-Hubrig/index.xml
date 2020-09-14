@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S. Hubrig | Różański T.</title>
+    <link>https://www.rozanskit.com/pl/author/S.-Hubrig/</link>
+      <atom:link href="https://www.rozanskit.com/pl/author/S.-Hubrig/index.xml" rel="self" type="application/rss+xml" />
+    <description>S. Hubrig</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pl</language><lastBuildDate>Wed, 01 Oct 2008 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.rozanskit.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>S. Hubrig</title>
+      <link>https://www.rozanskit.com/pl/author/S.-Hubrig/</link>
+    </image>
+    
+    <item>
+      <title>Chemically peculiar stars and their temperature calibration</title>
+      <link>https://www.rozanskit.com/pl/publication/netopil-2008/</link>
+      <pubDate>Wed, 01 Oct 2008 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/netopil-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emission lines in the optical spectrum of 3 Cen A</title>
+      <link>https://www.rozanskit.com/pl/publication/2004-wahlgren/</link>
+      <pubDate>Sat, 01 May 2004 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/2004-wahlgren/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

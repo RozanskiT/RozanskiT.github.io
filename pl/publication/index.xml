@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Różański T.</title>
+    <link>https://www.rozanskit.com/pl/publication/</link>
+      <atom:link href="https://www.rozanskit.com/pl/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pl</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.rozanskit.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>https://www.rozanskit.com/pl/publication/</link>
+    </image>
+    
+    <item>
+      <title>HD 185330 — chemically peculiar $^3$He star in the Kepler field</title>
+      <link>https://www.rozanskit.com/pl/publication/2018-niemczura/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/2018-niemczura/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A non-LTE spectral analysis of the $^3$He and $^4$He isotopes in the HgMn star kappa Cancri</title>
+      <link>https://www.rozanskit.com/pl/publication/2014-maza/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/2014-maza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Doppler imaging of the helium-variable star a Centauri</title>
+      <link>https://www.rozanskit.com/pl/publication/2010-bohlender/</link>
+      <pubDate>Wed, 01 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/2010-bohlender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chemically peculiar stars and their temperature calibration</title>
+      <link>https://www.rozanskit.com/pl/publication/netopil-2008/</link>
+      <pubDate>Wed, 01 Oct 2008 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/netopil-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>$^3$He and $^4$He Abundance Stratification in the $^3$He and Related Stars</title>
+      <link>https://www.rozanskit.com/pl/publication/2005-bohlender/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/2005-bohlender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emission lines in the optical spectrum of 3 Cen A</title>
+      <link>https://www.rozanskit.com/pl/publication/2004-wahlgren/</link>
+      <pubDate>Sat, 01 May 2004 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/2004-wahlgren/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chemically peculiar hot stars</title>
+      <link>https://www.rozanskit.com/pl/publication/smith-1996-chemically/</link>
+      <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/smith-1996-chemically/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The helium-3 stars</title>
+      <link>https://www.rozanskit.com/pl/publication/1979-hartoog/</link>
+      <pubDate>Thu, 01 Feb 1979 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/1979-hartoog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diffusion Processes in Peculiar A Stars</title>
+      <link>https://www.rozanskit.com/pl/publication/1970-michaud/</link>
+      <pubDate>Fri, 01 May 1970 00:00:00 +0000</pubDate>
+      <guid>https://www.rozanskit.com/pl/publication/1970-michaud/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
