@@ -3,31 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.rozanskit.com/pl/post/3he_gwiazdy/</loc>
-    <lastmod>2020-09-08T19:11:09+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.rozanskit.com/pl/</loc>
-    <lastmod>2020-09-08T19:11:09+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.rozanskit.com/</loc>
-    <lastmod>2020-09-08T19:11:09+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://www.rozanskit.com/pl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.rozanskit.com/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.rozanskit.com/authors/</loc>
     <xhtml:link
                 rel="alternate"
@@ -108,6 +83,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.rozanskit.com/talk/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.rozanskit.com/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://www.rozanskit.com/pl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.rozanskit.com/"
                 />
   </url>
   
