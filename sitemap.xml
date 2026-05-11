@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://www.rozanskit.com/en/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://www.rozanskit.com/pl/sitemap.xml</loc>
-		
-	   	<lastmod>2020-09-14T19:50:41+02:00</lastmod>
-		
-	</sitemap>
-	
-</sitemapindex>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://rozanskit.com/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rozanskit.com/pl/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rozanskit.com/suppnet/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+</urlset>

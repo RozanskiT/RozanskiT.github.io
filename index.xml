@@ -1,16 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Różański T.</title>
-    <link>https://www.rozanskit.com/</link>
-      <atom:link href="https://www.rozanskit.com/index.xml" rel="self" type="application/rss+xml" />
-    <description>Różański T.</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
-    <image>
-      <url>https://www.rozanskit.com/images/icon_hu9eccabd213554be7652049b325691c23_30858_512x512_fill_lanczos_center_2.png</url>
-      <title>Różański T.</title>
-      <link>https://www.rozanskit.com/</link>
-    </image>
-    
+    <title>Tomasz Różański</title>
+    <link>https://rozanskit.com/</link>
+    <atom:link href="https://rozanskit.com/index.xml" rel="self" type="application/rss+xml" />
+    <description>Personal webpage of Tomasz Różański.</description>
+    <language>en</language>
   </channel>
 </rss>

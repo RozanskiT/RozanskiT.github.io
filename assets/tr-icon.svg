@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">tr</title>
+  <rect width="128" height="128" fill="#080808"/>
+  <rect x="18" y="18" width="92" height="92" rx="16" fill="none" stroke="#f7f7f3" stroke-width="6"/>
+  <text x="64" y="78" text-anchor="middle" fill="#f7f7f3" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" letter-spacing="1">tr</text>
+</svg>
