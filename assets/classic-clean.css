@@ -336,8 +336,11 @@ button {
 }
 
 .classic-switch .is-current,
+.classic-switch a.is-current:link,
+.classic-switch a.is-current:visited,
 .classic-switch button[aria-pressed="true"] {
   color: var(--button-ink);
+  -webkit-text-fill-color: var(--button-ink);
   background: var(--accent);
 }
 
