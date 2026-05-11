@@ -387,6 +387,7 @@ button {
 .intro-text {
   margin: 18px 0 0;
   max-width: 690px;
+  text-align: justify;
 }
 
 .portrait {
