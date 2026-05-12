@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Two-layer atmosphere toy model | Tomasz R&#243;&#380;a&#324;ski</title>
+    <meta
+      name="description"
+      content="A small interactive toy model for a Planckian background radiation field passing through a Gaussian absorbing and emitting gas layer."
+    >
+    <link rel="canonical" href="https://rozanskit.com/atmosphere/">
+    <link rel="alternate" hreflang="en" href="https://rozanskit.com/atmosphere/">
+    <link rel="alternate" hreflang="pl" href="https://rozanskit.com/pl/atmosfera/">
+    <link rel="icon" href="/assets/tr-icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/classic-clean.css">
+    <script>
+      (function () {
+        const root = document.documentElement;
+        const modes = ["light", "black", "auto", "night"];
+        const params = new URLSearchParams(window.location.search);
+        let choice = params.get("theme");
+
+        if (!modes.includes(choice)) {
+          try {
+            choice = localStorage.getItem("fusion-theme");
+          } catch (error) {
+            choice = "auto";
+          }
+        }
+
+        if (!modes.includes(choice)) {
+          choice = "auto";
+        }
+
+        const prefersDark = window.matchMedia &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches;
+        root.dataset.themeChoice = choice;
+        root.dataset.theme = choice === "auto" ? (prefersDark ? "black" : "light") : choice;
+      })();
+    </script>
+    <script src="/assets/fusion.js" defer></script>
+    <script src="/assets/classic-spectrum.js" defer></script>
+    <script src="/assets/two-layer-atmosphere.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="plain-page" id="top">
+      <nav class="classic-topbar" aria-label="Main navigation">
+        <a class="classic-mark" href="/" aria-label="Tomasz R&#243;&#380;a&#324;ski home">tr</a>
+
+        <div class="classic-nav-links">
+          <a href="/">home</a>
+          <a href="#model">model</a>
+          <a href="#controls">controls</a>
+          <a href="#notes">notes</a>
+        </div>
+
+        <div class="classic-actions" aria-label="Page tools">
+          <div class="classic-switch" aria-label="Theme">
+            <button type="button" data-theme-button="auto">auto</button>
+            <button type="button" data-theme-button="black">black</button>
+            <button type="button" data-theme-button="night">red</button>
+            <button type="button" data-theme-button="light">light</button>
+          </div>
+
+          <div class="classic-switch" aria-label="Language">
+            <a class="is-current" href="/atmosphere/" aria-current="page" hreflang="en" lang="en">en</a>
+            <a href="/pl/atmosfera/" hreflang="pl" lang="pl">pl</a>
+          </div>
+        </div>
+
+        <details class="mobile-menu">
+          <summary aria-label="Open menu">
+            <span aria-hidden="true">&#9776;</span>
+          </summary>
+          <div class="mobile-menu-panel">
+            <div class="mobile-menu-links" aria-label="Main navigation">
+              <a href="/">home</a>
+              <a href="#model">model</a>
+              <a href="#controls">controls</a>
+              <a href="#notes">notes</a>
+            </div>
+            <div class="classic-switch" aria-label="Theme">
+              <button type="button" data-theme-button="auto">auto</button>
+              <button type="button" data-theme-button="black">black</button>
+              <button type="button" data-theme-button="night">red</button>
+              <button type="button" data-theme-button="light">light</button>
+            </div>
+            <div class="classic-switch" aria-label="Language">
+              <a class="is-current" href="/atmosphere/" aria-current="page" hreflang="en" lang="en">en</a>
+              <a href="/pl/atmosfera/" hreflang="pl" lang="pl">pl</a>
+            </div>
+          </div>
+        </details>
+      </nav>
+
+      <div class="spectrum-divider" data-spectrum-divider aria-hidden="true"></div>
+
+      <main id="main" class="atmosphere-page">
+        <section class="atmosphere-intro" id="model" aria-labelledby="model-title">
+          <div class="atmosphere-intro-copy">
+            <p class="hello">Toy radiative transfer</p>
+            <h1 id="model-title">Two-layer atmosphere</h1>
+            <p class="intro-text">
+              A Planckian background radiation field passes through a single
+              isothermal gas layer. The layer has a Gaussian opacity profile,
+              so the line depth is controlled by the line-center optical depth.
+            </p>
+          </div>
+
+          <div class="layer-diagram" data-layer-diagram aria-label="Diagram of a cool gas layer above a hotter Planckian background">
+            <div class="layer-band layer-gas">
+              <span>gas layer</span>
+              <strong data-diagram-gas>5000 K</strong>
+            </div>
+            <div class="layer-rays" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="layer-band layer-background">
+              <span>background field</span>
+              <strong data-diagram-background>6000 K</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="atmosphere-workbench" id="controls" aria-label="Interactive atmosphere controls and plots">
+          <form class="atmosphere-controls" data-atmosphere-controls>
+            <div class="panel-heading">
+              <h2>Parameters</h2>
+              <button type="button" class="plain-button" data-reset-model>Reset defaults</button>
+            </div>
+
+            <fieldset>
+              <legend>Thermal structure</legend>
+              <label class="range-row" for="background-temperature">
+                <span>Background temperature</span>
+                <input id="background-temperature" name="backgroundTemperature" type="range" min="3500" max="9000" step="50" value="6000" data-param="backgroundTemperature">
+                <output for="background-temperature" data-output="backgroundTemperature">6000 K</output>
+              </label>
+              <label class="range-row" for="layer-temperature">
+                <span>Gas temperature</span>
+                <input id="layer-temperature" name="layerTemperature" type="range" min="2500" max="9000" step="50" value="5000" data-param="layerTemperature">
+                <output for="layer-temperature" data-output="layerTemperature">5000 K</output>
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Opacity profile</legend>
+              <label class="range-row" for="line-depth">
+                <span>Line depth, &tau;<sub>0</sub></span>
+                <input id="line-depth" name="lineDepth" type="range" min="0" max="6" step="0.05" value="1.20" data-param="lineDepth">
+                <output for="line-depth" data-output="lineDepth">1.20</output>
+              </label>
+              <label class="range-row" for="continuum-depth">
+                <span>Continuum depth, &tau;<sub>c</sub></span>
+                <input id="continuum-depth" name="continuumDepth" type="range" min="0" max="1.5" step="0.01" value="0.02" data-param="continuumDepth">
+                <output for="continuum-depth" data-output="continuumDepth">0.02</output>
+              </label>
+              <label class="range-row" for="line-center">
+                <span>Line center</span>
+                <input id="line-center" name="lineCenter" type="range" min="410" max="720" step="1" value="589" data-param="lineCenter">
+                <output for="line-center" data-output="lineCenter">589 nm</output>
+              </label>
+              <label class="range-row" for="line-width">
+                <span>Gaussian width, &sigma;</span>
+                <input id="line-width" name="lineWidth" type="range" min="2" max="90" step="1" value="24" data-param="lineWidth">
+                <output for="line-width" data-output="lineWidth">24 nm</output>
+              </label>
+            </fieldset>
+          </form>
+
+          <div class="atmosphere-plot-area">
+            <section class="chart-panel chart-panel-large" aria-labelledby="spectrum-title">
+              <div class="panel-heading">
+                <h2 id="spectrum-title">Emergent spectrum</h2>
+                <p data-summary aria-live="polite">Cool gas removes light near line center.</p>
+              </div>
+              <div class="chart-frame chart-frame-large">
+                <canvas
+                  data-spectrum-canvas
+                  role="img"
+                  aria-label="Two-panel line plot showing emergent intensity and normalized monochromatic intensity from 380 to 760 nanometers"
+                ></canvas>
+              </div>
+              <dl class="model-readout">
+                <div>
+                  <dt>Equivalent width</dt>
+                  <dd data-readout="equivalentWidth">0 nm</dd>
+                </div>
+              </dl>
+            </section>
+
+            <section class="chart-panel" aria-labelledby="opacity-title">
+              <div class="panel-heading">
+                <h2 id="opacity-title">Optical depth</h2>
+                <p>&tau;<sub>&lambda;</sub> = &tau;<sub>c</sub> + &tau;<sub>0</sub> exp[-(&lambda; - &lambda;<sub>0</sub>)<sup>2</sup> / 2&sigma;<sup>2</sup>]</p>
+              </div>
+              <div class="chart-frame chart-frame-small">
+                <canvas
+                  data-depth-canvas
+                  role="img"
+                  aria-label="Gaussian optical depth profile across wavelength"
+                ></canvas>
+              </div>
+            </section>
+          </div>
+        </section>
+
+        <section class="section atmosphere-notes" id="notes" aria-labelledby="notes-title">
+          <h2 id="notes-title">Model notes</h2>
+          <p>
+            The radiation intensity at the surface of our simple stellar
+            atmosphere model is computed as
+            <code>I_lambda = I_bg exp(-tau_lambda) + B_lambda(T_gas) (1 - exp(-tau_lambda))</code>.
+            With a cooler upper layer the line appears in absorption; if the
+            gas is hotter than the background, the same model turns the line
+            into emission.
+          </p>
+          <p>
+            This is the simplest stellar model that illustrates how spectral
+            lines can change character between absorption and emission.
+          </p>
+        </section>
+      </main>
+
+      <footer class="footer">
+        &copy; Tomasz R&#243;&#380;a&#324;ski
+      </footer>
+    </div>
+  </body>
+</html>

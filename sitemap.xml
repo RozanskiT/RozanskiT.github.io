@@ -2,13 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rozanskit.com/</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://rozanskit.com/pl/</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rozanskit.com/atmosphere/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rozanskit.com/pl/atmosfera/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://rozanskit.com/suppnet/</loc>
